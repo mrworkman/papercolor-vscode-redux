@@ -368,7 +368,8 @@
         "name": "Storage Type Function",
         "scope": "storage.type.function",
         "settings": {
-          "foreground": "#d70087"
+          "foreground": "#d70087",
+          "fontStyle": "bold"
         }
       },
       {
@@ -809,7 +810,8 @@
         "name": "[C#] - Annotations",
         "scope": "storage.type.cs",
         "settings": {
-          "foreground": "#444444"
+          "foreground": "#444444",
+          "fontStyle": ""
         }
       },
       {
