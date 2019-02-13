@@ -2,7 +2,7 @@
 
 A semi-reasonable attempt at porting the VIM theme [PaperColor](https://github.com/NLKNguyen/papercolor-theme) to VS Code. 
 
-![Code_2019-02-13_12-30-08.png](https://github.com/mrworkman/papercolor-vscode-redux/master/images/Code_2019-02-13_12-30-08.png)
+![Code_2019-02-13_12-30-08.png](https://github.com/mrworkman/papercolor-vscode-redux/raw/master/images/Code_2019-02-13_12-30-08.png)
 
 This theme is still very much a work in progress, so feedback is appreciated!
 
