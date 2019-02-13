@@ -1,4 +1,4 @@
-# Papercolor Redux Theme for VS Code
+# PaperColor Redux Theme for VS Code
 
 A semi-reasonable attempt at porting the VIM theme [PaperColor](https://github.com/NLKNguyen/papercolor-theme) to VS Code. 
 
