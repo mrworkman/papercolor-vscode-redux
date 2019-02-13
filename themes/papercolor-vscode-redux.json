@@ -35,10 +35,10 @@
       "descriptionForeground": "#aaa",
       
       // diff
-      "diffEditor.insertedTextBackground": "#3ad90033",
-      "diffEditor.insertedTextBorder": "#3ad90055",
-      "diffEditor.removedTextBackground": "#ee3a4333",
-      "diffEditor.removedTextBorder": "#ee3a4355",
+      "diffEditor.insertedTextBackground": "#00C85388",
+      "diffEditor.insertedTextBorder": "#1B5E20",
+      "diffEditor.removedTextBackground": "#F5005788",
+      "diffEditor.removedTextBorder": "#D50000",
       
       // dropdown
       "dropdown.background": "#ffffff",
@@ -63,7 +63,7 @@
       "editor.hoverHighlightBackground": "#B0BEC5dd",
       
       // current line styles
-      "editor.lineHighlightBackground": "#B3E5FC",
+      "editor.lineHighlightBackground": "#B3E5FCe8",
       "editor.lineHighlightBorder": "#81D4FA",
       "editor.rangeHighlightBackground": "#B3E5FC",
       
@@ -73,7 +73,7 @@
       "editor.inactiveSelectionBackground": "#81D4FA",
 
       // This is the colour of the other matching elements
-      "editor.selectionHighlightBackground": "#03A9F4",
+      "editor.selectionHighlightBackground": "#B3E5FC",
 
       // Word Highlights! This happens when you move your cursor inside a variable
       // Strong is the one where your cursor currently is
@@ -127,21 +127,21 @@
       "editorOverviewRuler.incomingContentForeground": "#3ad90055",
       "editorRuler.foreground": "#1F4662",
       // editorSuggestWidget
-      "editorSuggestWidget.background": "#15232d",
-      "editorSuggestWidget.border": "#15232d",
-      "editorSuggestWidget.foreground": "#aaa",
-      "editorSuggestWidget.highlightForeground": "#ffc600",
-      "editorSuggestWidget.selectedBackground": "#193549",
+      "editorSuggestWidget.background": "#eeeeee",
+      "editorSuggestWidget.border": "#0d3a58",
+      "editorSuggestWidget.foreground": "#424242",
+      "editorSuggestWidget.highlightForeground": "#d70087",
+      "editorSuggestWidget.selectedBackground": "#B3E5FCe8",
       // editorWarning
       "editorWarning.border": "#ffffff00",
       "editorWarning.foreground": "#ffc600",
-      "editorWhitespace.foreground": "#4d4d4c9c",
+      "editorWhitespace.foreground": "#0D47A148",
       
       "editorWidget.background": "#eeeeee",
       "editorWidget.resizeBorder": "#155f87",
       "editorWidget.border": "#0d3a58",
 
-      "errorForeground": "#A22929",
+      "errorForeground": "#FF1744",
       // extensionButton
       "extensionButton.prominentBackground": "#0088ff",
       "extensionButton.prominentForeground": "#fff",
@@ -165,16 +165,16 @@
       "inputValidation.warningBorder": "#ffc600",
 
       // list
-      "list.activeSelectionBackground": "#0288D1",
+      "list.activeSelectionBackground": "#0091EA88",
       "list.activeSelectionForeground": "#eeeeee",
       "list.dropBackground": "#81D4FA",
-      "list.focusBackground": "#00B0FF",
-      "list.focusForeground": "#eeeeee",
+      "list.focusBackground": "#B3E5FC",
+      "list.focusForeground": "#424242",
       "list.highlightForeground": "#d70087",
-      "list.hoverBackground": "#0091EA",
-      "list.hoverForeground": "#eeeeee",
+      "list.hoverBackground": "#B3E5FC",
+      "list.hoverForeground": "#424242",
       "list.inactiveFocusBackground": "#4FC3F7",
-      "list.inactiveSelectionBackground": "#0277BD",
+      "list.inactiveSelectionBackground": "#0091EA",
       "list.inactiveSelectionForeground": "#eeeeee",
       
       // menu
@@ -196,21 +196,21 @@
       "merge.incomingHeaderBackground": "#185294",
       
       // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
-      "notificationCenter.border": "#ffc600",
-      "notificationCenterHeader.foreground": "#aaa",
-      "notificationCenterHeader.background": "#122738",
-      "notificationToast.border": "#ffc600",
-      "notifications.foreground": "#aaa",
-      "notifications.background": "#122738",
-      "notifications.border": "#ffc600",
-      "notificationLink.foreground": "#ffc600",
+      "notificationCenter.border": "#0d3a58",
+      "notificationCenterHeader.foreground": "#424242",
+      "notificationCenterHeader.background": "#eeeeee",
+      "notificationToast.border": "#0d3a58",
+      "notifications.foreground": "#424242",
+      "notifications.background": "#eeeeee",
+      "notifications.border": "#0d3a58",
+      "notificationLink.foreground": "#424242",
 
       // panel (e.g. terminal "header")
       "panel.background": "#eeeeee",
       "panel.border": "#B0BEC5",
-      "panelTitle.activeBorder": "#ffc600",
+      "panelTitle.activeBorder": "#4A148C",
       "panelTitle.activeForeground": "#424242",
-      "panelTitle.inactiveForeground": "#424242",
+      "panelTitle.inactiveForeground": "#757575",
 
       // "peekView
       "peekView.border": "#B0BEC5",
@@ -248,25 +248,26 @@
       // sidebar
       "sideBar.background": "#eeeeee",
       "sideBar.border": "#B0BEC5",
-      "sideBar.foreground": "#444444",
-      "sideBarSectionHeader.background": "#155f87",
-      "sideBarSectionHeader.foreground": "#eeeeee",
-      "sideBarTitle.foreground": "#444444",
+      "sideBar.foreground": "#424242",
+      "sideBarSectionHeader.background": "#E0E0E0",
+      "sideBarSectionHeader.foreground": "#424242",
+      "sideBarTitle.foreground": "#424242",
       
       // statusBar
       "statusBar.background": "#155f87",
-      "statusBar.border": "#00000000",
-      "statusBar.debuggingBackground": "#15232d",
-      "statusBar.debuggingBorder": "#ffc600",
-      "statusBar.debuggingForeground": "#ffc600",
+      "statusBar.border": "#4A148C",
+      "statusBar.debuggingBackground": "#D50000",
+      "statusBar.debuggingBorder": "#4A148C",
+      "statusBar.debuggingForeground": "#eeeeee",
       "statusBar.foreground": "#eeeeee",
-      "statusBar.noFolderBackground": "#15232d",
-      "statusBar.noFolderBorder": "#0d3a58",
-      "statusBar.noFolderForeground": "#aaa",
-      "statusBarItem.activeBackground": "#0088ff",
-      "statusBarItem.hoverBackground": "#0d3a58",
-      "statusBarItem.prominentBackground": "#15232d",
-      "statusBarItem.prominentHoverBackground": "#0d3a58",
+      "statusBar.noFolderBackground": "#155f87",
+      "statusBar.noFolderBorder": "#4A148C",
+      "statusBar.noFolderForeground": "#eeeeee",
+      
+      "statusBarItem.activeBackground": "#039BE5",
+      "statusBarItem.hoverBackground": "#0277BD",
+      "statusBarItem.prominentBackground": "#039BE5",
+      "statusBarItem.prominentHoverBackground": "#0277BD",
 
       // tabs.
       "tab.activeBackground": "#eeeeee",
@@ -302,11 +303,11 @@
       "terminalCursor.foreground": "#757575",
 
       // Git status colors in File Explorer
-      "gitDecoration.modifiedResourceForeground": "#ffc600",
-      "gitDecoration.deletedResourceForeground": "#ff628c",
-      "gitDecoration.untrackedResourceForeground": "#3ad900",
-      "gitDecoration.ignoredResourceForeground": "#747476",
-      "gitDecoration.conflictingResourceForeground": "#FF7200",
+      "gitDecoration.modifiedResourceForeground": "#F57F17",
+      "gitDecoration.deletedResourceForeground": "#FF1744",
+      "gitDecoration.untrackedResourceForeground": "#33691E",
+      "gitDecoration.ignoredResourceForeground": "#616161",
+      "gitDecoration.conflictingResourceForeground": "#FF3D00",
       
       // textBlockQuote
       "textBlockQuote.background": "#EDE7F6",
@@ -319,7 +320,7 @@
       "textPreformat.foreground": "#d70087",
       "textSeparator.foreground": "#f00",
 
-      "titleBar.border": "#00000000",
+      "titleBar.border": "#4A148C",
       "titleBar.activeBackground": "#01579B",
       "titleBar.activeForeground": "#eeeeee",
       "titleBar.inactiveBackground": "#01579B",
