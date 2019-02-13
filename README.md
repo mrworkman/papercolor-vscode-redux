@@ -1,13 +1,14 @@
-# README
-## This is the README for your extension "papercolor-redux"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Papercolor Redux Theme for VS Code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A semi-reasonable attempt at porting the VIM theme [PaperColor](https://github.com/NLKNguyen/papercolor-theme) to VS Code. 
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Code_2019-02-13_12-30-08.png](https://github.com/mrworkman/papercolor-vscode-redux/master/images/Code_2019-02-13_12-30-08.png)
 
-**Enjoy!**
+This theme is still very much a work in progress, so feedback is appreciated!
+
+## Links
+* [GitHub](https://github.com/mrworkman/papercolor-vscode-redux)
+
+## Notes
+1. I've been using the awesome [papercolor-vscode](https://github.com/rozbo/papercolor-vscode) theme for quite some time now, but it hasn't seen updates in awhile, and uses an XML-based textmate theme which is a bit of a pain to work with (IMO). Plus, I wanted to make a number of changes without changing the other project.
+1. I used the [Cobalt2 Theme](https://github.com/wesbos/cobalt2) json theme file as the basis for this one.
