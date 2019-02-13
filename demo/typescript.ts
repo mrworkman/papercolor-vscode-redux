@@ -15,3 +15,11 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+let something = (a: string) => {
+  console.log(`do something with ${a}`);
+}
+
+function foo(x: number, y: number): number {
+  return x + y;
+}

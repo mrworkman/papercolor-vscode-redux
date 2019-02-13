@@ -1,11 +1,17 @@
 .someClass {
-  font-family: sans;
+  font-family: sans, 'font with spaces';
 }
 
 #someID {
   background: yellow;
 }
 
+/*
+   some comment
+ */
+
 table {
   align-content: center;
+  font-size: 22;
+  background-color: var(--main-bg-color);
 }

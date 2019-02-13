@@ -1,6 +1,6 @@
-# Cobalt2 Theme
+# Papercolor Redux Theme
 
-> A Cobalt2 theme for VS Code.
+> A reworked papercolor theme for VS Code.
 
 ![Preview](images/preview.gif)
 
@@ -9,7 +9,22 @@
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 2. Launch Visual Studio Code
 3. Choose **Extensions** from menu
-4. Search for `vscode-theme-cobalt2`
+4. Search for `papercolor-vscode-redux`
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
-7. File > Preferences > Color Theme > **Cobalt2**
+7. File > Preferences > Color Theme > **Papercolor Redux**
+
+*Some text in italics*.
+
+A list:
+ * Item 1
+ * Item 2
+
+Some `inline code`.
+
+```
+  A code block
+```
+    Another, different code block.
+
+

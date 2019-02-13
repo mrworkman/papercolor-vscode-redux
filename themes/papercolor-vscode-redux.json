@@ -85,8 +85,8 @@
       "editorCodeLens.foreground": "#aaa",
 
       "editorCursor.foreground": "#757575",
-      "editorError.border": "#0d3a58",
-      "editorError.foreground": "#ff0000",
+      "editorError.border": "#00000000",
+      "editorError.foreground": "#F50057",
 
       // gutter
       "editorGutter.background": "#eeeeee",
@@ -512,26 +512,15 @@
           "source.stylus support.constant"
         ],
         "settings": {
-          "foreground": "#d86307"
-        }
-      },
-      {
-        "name": "[CSS] - String",
-        "scope": [
-          "source.css string",
-          "source.css punctuation.definition.string",
-          "source.stylus string",
-          "source.stylus punctuation.definition.string"
-        ],
-        "settings": {
-          "foreground": "#ffee80"
+          "foreground": "#d86307",
+          "fontStyle": "bold"
         }
       },
       {
         "name": "[CSS] - Variable",
         "scope": ["source.css variable", "source.stylus variable"],
         "settings": {
-          "foreground": "#9effff"
+          "foreground": "#424242"
         }
       },
       {
@@ -565,39 +554,39 @@
       },
       {
         "name":
-          "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
+          "Quotes. these are a slightly different colour because expand selection will then not include quotes",
         "scope":
           "punctuation.definition.string.begin, punctuation.definition.string.end",
         "settings": {
-          "foreground": "#618803"
+          "foreground": "#00838F"
         }
       },
       {
         "name": "[INI] - Entity",
         "scope": "source.ini entity",
         "settings": {
-          "foreground": "#e1efff"
+          "foreground": "#d70087"
         }
       },
       {
         "name": "[INI] - Keyword",
         "scope": "source.ini keyword",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#01579B"
         }
       },
       {
         "name": "[INI] - Punctuation Definition",
         "scope": "source.ini punctuation.definition",
         "settings": {
-          "foreground": "#ffee80"
+          "foreground": "#424242"
         }
       },
       {
         "name": "[INI] - Punctuation Separator",
         "scope": "source.ini punctuation.separator",
         "settings": {
-          "foreground": "#ff9d00"
+          "foreground": "#424242"
         }
       },
       // {
@@ -626,7 +615,7 @@
         "name": "[MARKDOWN] - Heading Punctuation",
         "scope": "punctuation.definition.heading.markdown",
         "settings": {
-          "foreground": "#e1efff"
+          "foreground": "#424242"
         }
       },
       {
@@ -637,7 +626,7 @@
           "markup.heading.setext.2.markdown"
         ],
         "settings": {
-          "foreground": "#ffc600",
+          "foreground": "#d70087",
           "fontStyle": "bold"
         }
       },
@@ -645,14 +634,14 @@
         "name": "[MARKDOWN] - Paragraph",
         "scope": "meta.paragraph.markdown",
         "settings": {
-          "foreground": "#e1efff"
+          "foreground": "#424242"
         }
       },
       {
         "name": "[MARKDOWN] - Quote Punctuation",
         "scope": "beginning.punctuation.definition.quote.markdown",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#f00"
         }
       },
       {
@@ -660,37 +649,37 @@
         "scope": "markup.quote.markdown meta.paragraph.markdown",
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#9effff"
+          "foreground": "#424242"
         }
       },
       {
         "name": "[MARKDOWN] - Separator",
         "scope": "meta.separator.markdown",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#f00"
         }
       },
       {
         "name": "[MARKDOWN] - Emphasis Bold",
         "scope": "markup.bold.markdown",
         "settings": {
-          "fontStyle": "bold",
-          "foreground": "#9effff"
+          "foreground": "#424242",
+          "fontStyle": "bold"
         }
       },
       {
         "name": "[MARKDOWN] - Emphasis Italic",
         "scope": "markup.italic.markdown",
         "settings": {
-          "fontStyle": "italic",
-          "foreground": "#9effff"
+          "foreground": "#424242",
+          "fontStyle": "italic"
         }
       },
       {
         "name": "[MARKDOWN] - Lists",
         "scope": "beginning.punctuation.definition.list.markdown",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#f00"
         }
       },
       {
@@ -708,7 +697,7 @@
           "string.other.link.description.title.markdown"
         ],
         "settings": {
-          "foreground": "#a5ff90"
+          "foreground": "#AA00FF"
         }
       },
       {
@@ -718,42 +707,21 @@
           "markup.underline.link.image.markdown"
         ],
         "settings": {
-          "foreground": "#9effff"
+          "foreground": "#005f87"
         }
       },
       {
         "name": "[MARKDOWN] - Inline Code",
         "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
         "settings": {
-          "foreground": "#9effff"
+          "foreground": "#f00"
         }
       },
       {
         "name": "[MARKDOWN] - Code Block",
         "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
         "settings": {
-          "foreground": "#9effff"
-        }
-      },
-      {
-        "name": "[PUG] - Entity Name",
-        "scope": "text.jade entity.name",
-        "settings": {
-          "foreground": "#9effff"
-        }
-      },
-      {
-        "name": "[PUG] - Entity Attribute Name",
-        "scope": "text.jade entity.other.attribute-name.tag",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      },
-      {
-        "name": "[PUG] - String Interpolated",
-        "scope": "text.jade string.interpolated",
-        "settings": {
-          "foreground": "#ffee80"
+          "foreground": "#f00"
         }
       },
       {
@@ -769,41 +737,6 @@
         "settings": {
           "foreground": "#005f87",
           "fontStyle": "bold"
-        }
-      },
-      {
-        "name": "[TYPESCRIPT] - Punctuation Parameters",
-        "scope": "source.ts punctuation.definition.parameters",
-        "settings": {
-          "foreground": "#e1efff"
-        }
-      },
-      {
-        "name": "[TYPESCRIPT] - Punctuation Arrow Parameters",
-        "scope": "meta.arrow.ts punctuation.definition.parameters",
-        "settings": {
-          "foreground": "#ffee80"
-        }
-      },
-      {
-        "name": "[TYPESCRIPT] - Storage",
-        "scope": "source.ts storage",
-        "settings": {
-          "foreground": "#9effff"
-        }
-      },
-      {
-        "name": "[PHP] - Entity",
-        "scope": "source.php entity",
-        "settings": {
-          "foreground": "#9effff"
-        }
-      },
-      {
-        "name": "[PHP] - Variables",
-        "scope": "variable.other.php",
-        "settings": {
-          "foreground": "#ffc600"
         }
       },
       {
