@@ -1,21 +1,33 @@
 {
     "name": "papercolor-vscode-redux",
-    "displayName": "papercolor-vscode-redux",
+    "displayName": "PaperColor Redux Theme",
     "description": "Updated papercolor theme for vscode.",
     "version": "0.1.0",
+    "publisher": "mrworkman",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mrworkman/papercolor-vscode-redux"
+    },
     "engines": {
         "vscode": "^1.30.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "Papercolor Redux",
+                "label": "PaperColor Redux",
                 "uiTheme": "vs",
                 "path": "./themes/papercolor-vscode-redux.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^1.57.0"
     }
 }
