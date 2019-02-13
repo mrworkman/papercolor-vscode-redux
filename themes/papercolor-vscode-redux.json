@@ -165,17 +165,19 @@
       "inputValidation.warningBorder": "#ffc600",
 
       // list
-      "list.activeSelectionBackground": "#0091EA88",
+      "list.activeSelectionBackground": "#0091EA",
       "list.activeSelectionForeground": "#eeeeee",
       "list.dropBackground": "#81D4FA",
+      "list.errorForeground": "#D50000",
       "list.focusBackground": "#B3E5FC",
       "list.focusForeground": "#424242",
       "list.highlightForeground": "#d70087",
       "list.hoverBackground": "#B3E5FC",
       "list.hoverForeground": "#424242",
       "list.inactiveFocusBackground": "#4FC3F7",
-      "list.inactiveSelectionBackground": "#0091EA",
-      "list.inactiveSelectionForeground": "#eeeeee",
+      "list.inactiveSelectionBackground": "#0091EA88",
+      "list.inactiveSelectionForeground": "#424242",
+      "list.warningForeground": "#FF6F00",
       
       // menu
       "menu.background": "#eeeeee",
@@ -366,7 +368,7 @@
         "name": "Storage Type Function",
         "scope": "storage.type.function",
         "settings": {
-          "foreground": "#ff9d00"
+          "foreground": "#d70087"
         }
       },
       {
@@ -402,56 +404,58 @@
         "name": "Punctuation Parameters",
         "scope": "punctuation.definition.parameters",
         "settings": {
-          "foreground": "#ffee80"
+          "foreground": "#424242"
         }
       },
       {
         "name": "Punctuation Template Expression",
         "scope": "punctuation.definition.template-expression",
         "settings": {
-          "foreground": "#ffee80"
+          "foreground": "#424242",
         }
       },
       {
         "name": "Storage",
         "scope": "storage",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#005f87",
+          "fontStyle": "bold"
         }
       },
       {
         "name": "Storage Type Arrow Function",
         "scope": "storage.type.function.arrow",
         "settings": {
-          "foreground": "#ffc600"
+          "foreground": "#005f87"
         }
       },
       {
         "name": "String",
         "scope": ["string", "punctuation.definition.string"],
         "settings": {
-          "foreground": "#5f8700"
+          "foreground": "#2E7D32",
+          "fontStyle": ""
         }
       },
       {
         "name": "String Template",
         "scope": ["string.template", "punctuation.definition.string.template"],
         "settings": {
-          "foreground": "#3ad900"
+          "foreground": "#2E7D32"
         }
       },
       {
         "name": "Support",
         "scope": "support",
         "settings": {
-          "foreground": "#80ffbb"
+          "foreground": "#005f87"
         }
       },
       {
         "name": "Support Function",
         "scope": "support.function",
         "settings": {
-          "foreground": "#ff9d00"
+          "foreground": "#AA00FF"
         }
       },
       {
@@ -595,49 +599,26 @@
           "foreground": "#ff9d00"
         }
       },
-      {
-        "name": "[JAVASCRIPT] - Storage Type Function",
-        "scope": "source.js storage.type.function",
-        "settings": {
-          "foreground": "#fb94ff"
-        }
-      },
-      {
-        "name": "[JAVASCRIPT] - Variable Language",
-        "scope": "variable.language, entity.name.type.class.js",
-        "settings": {
-          "foreground": "#fb94ff"
-        }
-      },
+      // {
+      //   "name": "[JAVASCRIPT] - Variable Language",
+      //   "scope": "variable.language, entity.name.type.class.js",
+      //   "settings": {
+      //     "foreground": "#AA00FF"
+      //   }
+      // },
       {
         "name": "[JAVASCRIPT] - Inherited Component",
         "scope": "entity.other.inherited-class.js",
         "settings": {
-          "foreground": "#ccc"
+          "foreground": "#880E4F"
         }
       },
       {
         "name": "[PYTHON] - Self Argument",
         "scope": "variable.parameter.function.language.special.self.python",
         "settings": {
-          "foreground": "#fb94ff"
-        }
-      },
-      {
-        "name": "[JSON] - Support",
-        "scope": "source.json support",
-        "settings": {
-          "foreground": "#ffc600"
-        }
-      },
-      {
-        "name": "[JSON] - String",
-        "scope": [
-          "source.json string",
-          "source.json punctuation.definition.string"
-        ],
-        "settings": {
-          "foreground": "#e1efff"
+          "foreground": "#005f87",
+          "fontStyle": "bold"
         }
       },
       {
