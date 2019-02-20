@@ -334,6 +334,10 @@
       "welcomePage.background": "#ECEFF1",
       "widget.shadow": "#155f8766"
     },
+
+    // Get scopes with:
+    // > Developer: Inspect TM Scopes
+
     "tokenColors": [
       {
         "name": "Comment",
@@ -891,6 +895,77 @@
           "variable.language.special.self.python",
           "variable.parameter.function.language.special.self.python"
         ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+
+      //
+      // Batch Customizations
+      {
+        "scope": "keyword.command.rem.batchfile",
+        "settings": {
+          "foreground": "#878787",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "keyword.command.batchfile",
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "keyword.other.special-method.batchfile",
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite.batchfile",
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.variable.begin.batchfile",
+          "punctuation.definition.variable.end.batchfile",
+        ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+
+      //
+      // BASH/SHELL Customizations
+      {
+        "scope": [
+          "storage.modifier.shell",
+          "support.function.builtin.shell"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.variable.shell",
+          "variable.other.normal.shell"
+        ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "variable.other.special.shell",
         "settings": {
           "foreground": "#005f87",
           "fontStyle": "bold"
