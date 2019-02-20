@@ -787,11 +787,13 @@
       {
         "scope": [
           "keyword.operator.arithmetic.python",
-          "keyword.operator.assignment"
+          "keyword.operator.assignment",
+          "keyword.operator.comparison.python",
+          "keyword.operator.python"
         ],
         "settings": {
           "foreground": "#424242",
-          "fontStyle": ""
+          "fontStyle": "bold"
         }
       },
       {
@@ -849,7 +851,7 @@
       {
         "scope": "meta.function-call.generic.python",
         "settings": {
-          "foreground": "#424242",
+          "foreground": "#005f87",
           "fontStyle": ""
         }
       },
@@ -879,7 +881,7 @@
             "support.function.builtin.python",
         ],
         "settings": {
-          "foreground": "#424242",
+          "foreground": "#005f87",
           "fontStyle": "bold"
         }
       },
@@ -892,13 +894,21 @@
       },
       {
         "scope": [
-          "variable.language.special.self.python",
           "variable.parameter.function.language.special.self.python"
         ],
         "settings": {
-          "foreground": "#005f87",
-          "fontStyle": "bold"
+          "foreground": "#d70087",
+          "fontStyle": ""
         }
+      },
+      {
+          "scope": [
+            "variable.language.special.self.python",
+          ],
+          "settings": {
+            "foreground": "#d70087",
+            "fontStyle": "bold"
+          }
       },
 
       //
