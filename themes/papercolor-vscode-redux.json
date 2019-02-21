@@ -438,7 +438,7 @@
         "name": "String",
         "scope": ["string", "punctuation.definition.string"],
         "settings": {
-          "foreground": "#2E7D32",
+          "foreground": "#5f8700",
           "fontStyle": ""
         }
       },
@@ -446,7 +446,7 @@
         "name": "String Template",
         "scope": ["string.template", "punctuation.definition.string.template"],
         "settings": {
-          "foreground": "#2E7D32"
+          "foreground": "#5f8700"
         }
       },
       {
@@ -777,13 +777,6 @@
 
       //
       // PYTHON Customizations.
-      {
-        "scope": "string",
-        "settings": {
-          "foreground": "#5f8700",
-          "fontStyle": ""
-        }
-      },
       {
         "scope": [
           "keyword.operator.arithmetic.python",
