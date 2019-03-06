@@ -6,6 +6,8 @@ public class SomeClass {
    
    // Some Comment...
 
+   /// <summary>Some method.</summary>
+   /// <param name="fl">Some description.</param>
    public SomeClass(float fl) {
       int l = 55;
       string x = "Some String";
@@ -17,11 +19,17 @@ public class SomeClass {
          var verbatim = @"verbatim";
       };
 
-      // Something...
-      if (1 == 1) {
-         return;
-      } else {
-         throw new Exception("Some Exception");
+      try {
+         // Something...
+         if (1 == 1) {
+            return;
+         } else {
+            throw new Exception("Some Exception");
+         }
+      } catch (Exception e) {
+         Debug.WriteLine($"Something happened {e.Message}!"); 
+      } finally {
+         Debug.WriteLine("Done, and stuff."); 
       }
    }
 

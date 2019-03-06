@@ -438,7 +438,7 @@
         "name": "String",
         "scope": ["string", "punctuation.definition.string"],
         "settings": {
-          "foreground": "#5f8700",
+          "foreground": "#6f9700",
           "fontStyle": ""
         }
       },
@@ -446,7 +446,7 @@
         "name": "String Template",
         "scope": ["string.template", "punctuation.definition.string.template"],
         "settings": {
-          "foreground": "#5f8700"
+          "foreground": "#6f9700"
         }
       },
       {
@@ -735,29 +735,6 @@
           "fontStyle": "bold"
         }
       },
-      {
-        "name": "[C#] - Annotations",
-        "scope": "storage.type.cs",
-        "settings": {
-          "foreground": "#444444",
-          "fontStyle": ""
-        }
-      },
-      {
-        "name": "[C#] - Properties",
-        "scope": "entity.name.variable.property.cs",
-        "settings": {
-          "foreground": "#444444"
-        }
-      },
-      {
-        "name": "[C#] - Storage modifiers",
-        "scope": "storage.modifier.cs",
-        "settings": {
-          "foreground": "#005f87",
-          "fontStyle": "bold"
-        }
-      },
 
       // Hmmm....
       {
@@ -973,6 +950,205 @@
           "foreground": "#005f87",
           "fontStyle": "bold"
         }
-      }
+      },
+
+      //
+      // Java Customizations
+      {
+        "scope": [
+          "meta.import.java keyword.other.package.java",
+          "meta.import.java keyword.other.import.java",
+          "meta.import.java storage.modifier.java"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.import.java storage.modifier.import.java",
+          "meta.class.body.java meta.definition.variable.java variable.other.definition.java",
+          "meta.method.body.java",
+          "meta.try.body.java",
+          "meta.function-call.java",
+          "meta.definition.variable.java storage.type.java"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "storage.modifier.java"
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.class.identifier.java storage.modifier.java",
+          "meta.definition.class.inherited.classes.java storage.modifier.extends.java",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.primitive.java",
+          "keyword.control.try.java",
+          "keyword.control.catch.java",
+          "keyword.control.finally.java",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.new.java",
+          "variable.language.java",
+          "keyword.other.documentation.javadoc.java"
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "constant.language.java",
+        ],
+        "settings": {
+          "foreground": "#008700",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.annotation.java",
+          "storage.type.annotation.java",
+        ],
+        "settings": {
+          "foreground": "#d75f00",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.java",
+          "keyword.control.throw.java"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.comparison.java",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+
+      //
+      // C# Customizations
+      {
+        "scope": "storage.type.cs",
+        "settings": {
+          "foreground": "#444444",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "entity.name.variable.property.cs",
+        "settings": {
+          "foreground": "#444444"
+        }
+      },
+      {
+        "scope": "storage.modifier.cs",
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.comparison.cs",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.conditional.if.cs",
+          "keyword.control.conditional.else.cs",
+          "keyword.control.flow.return.cs",
+          "keyword.control.flow.throw.cs"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.interpolation.begin.cs",
+          "punctuation.definition.interpolation.end.cs",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "entity.name.tag.cs entity.name.tag.localname.cs",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.cs punctuation.definition.tag.cs",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.cs entity.other.attribute-name.cs entity.other.attribute-name.localname.cs",
+        ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.cs punctuation.separator.equals.cs",
+        ],
+        "settings": {
+          "foreground": "#d75f00",
+          "fontStyle": ""
+        }
+      },
+
     ]
 }
