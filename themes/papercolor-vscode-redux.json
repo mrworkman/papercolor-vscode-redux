@@ -529,35 +529,6 @@
         }
       },
       {
-        "name": "[HTML] - Entity Name",
-        "scope": "text.html.basic entity.name",
-        "settings": {
-          "foreground": "#9effff"
-        }
-      },
-      {
-        "name": "[HTML] - ID value",
-        "scope": "meta.toc-list.id.html",
-        "settings": {
-          "foreground": "#A5FF90"
-        }
-      },
-      {
-        "name": "[HTML] - Entity Other",
-        "scope": "text.html.basic entity.other",
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#ffc600"
-        }
-      },
-      {
-        "name": "[HTML] - Script Tag",
-        "scope": "meta.tag.metadata.script.html entity.name.tag.html",
-        "settings": {
-          "foreground": "#ffc600"
-        }
-      },
-      {
         "name":
           "Quotes. these are a slightly different colour because expand selection will then not include quotes",
         "scope":
@@ -1150,6 +1121,55 @@
           "fontStyle": ""
         }
       },
+
+      //
+      // HTML Customizations
+      {
+        "scope": [
+          "entity.name.tag.html",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.metadata.doctype.html entity.name.tag.html",
+          "punctuation.definition.tag.begin.html",
+          "punctuation.definition.tag.end.html"
+        ],
+        "settings": {
+          "foreground": "#878787",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.tag.metadata.doctype.html entity.other.attribute-name.html",
+        ],
+        "settings": {
+          "foreground": "#878787",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name.html",
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.html",
+        ],
+        "settings": {
+          "foreground": "#005faf"
+        }
+      },
+
+
 
     ]
 }

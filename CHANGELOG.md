@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [0.4.0] - 2019-03-XX
+- Improve colouring for HTML.
+
 ## [0.3.0] - 2019-03-06
 - Improve colouring for C#.
 - Improve colouring for Java.
