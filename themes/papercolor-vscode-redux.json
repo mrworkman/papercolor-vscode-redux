@@ -303,7 +303,7 @@
       "terminal.background": "#CFD8DC",
       "terminal.foreground": "#444444",
       "terminal.selectionBackground": "#155f8788",
-      "terminalCursor.background": "#757575",
+      "terminalCursor.background": "#ddd",
       "terminalCursor.foreground": "#757575",
 
       // Git status colors in File Explorer

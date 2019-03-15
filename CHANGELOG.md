@@ -5,6 +5,7 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 - Improve colouring for HTML.
 - Improve colouring for Batch scripts.
 - Make it easier to see selected text in highlighted search results.
+- Make it possible to see "through" the terminal cursor with dark text.
 
 ## [0.3.0] - 2019-03-06
 - Improve colouring for C#.
