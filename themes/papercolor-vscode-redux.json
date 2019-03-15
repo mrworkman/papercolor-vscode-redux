@@ -54,7 +54,8 @@
       // Currently found item
       "editor.findMatchBackground": "#ffff8d",
       // Other Found Items in the document
-      "editor.findMatchHighlightBackground": "#FFFDE7",
+      "editor.findMatchHighlightBackground": "#FFFDE7aa",
+      "editor.findMatchHighlightBorder": "#FFFDE7",
 
       // Highlights the "range" (lines) in the selection that the search applies to.
       "editor.findRangeHighlightBackground": "#CFD8DC60",
@@ -530,11 +531,11 @@
       },
       {
         "name":
-          "Quotes. these are a slightly different colour because expand selection will then not include quotes",
+          "Quotes.",
         "scope":
           "punctuation.definition.string.begin, punctuation.definition.string.end",
         "settings": {
-          "foreground": "#00838F"
+          "foreground": "#6f9700"
         }
       },
       {
@@ -877,9 +878,24 @@
         }
       },
       {
-        "scope": "variable.other.readwrite.batchfile",
+        "scope": [
+          "variable.other.readwrite.batchfile",
+          "variable.parameter.batchfile",
+          "punctuation.definition.variable.batchfile",
+        ],
         "settings": {
           "foreground": "#005f87",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.batchfile variable.other.readwrite.batchfile",
+          "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.begin.batchfile",
+          "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.end.batchfile"
+        ],
+        "settings": {
+          "foreground": "#005f87", // 6f9700
           "fontStyle": ""
         }
       },
@@ -893,6 +909,72 @@
           "fontStyle": "bold"
         }
       },
+      {
+        "scope": [
+          "keyword.control.conditional.batchfile",
+          "keyword.control.repeat.batchfile",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.conditional.batchfile",
+          "keyword.operator.comparison.batchfile",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.special-method.batchfile",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical.batchfile",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "constant.character.escape.batchfile",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.statement.batchfile",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.prompt.set.batchfile",
+        ],
+        "settings": {
+          "foreground": "#6f9700",
+          "fontStyle": ""
+        }
+      },
+
 
       //
       // BASH/SHELL Customizations

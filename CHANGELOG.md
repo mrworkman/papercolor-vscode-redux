@@ -1,8 +1,10 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [0.4.0] - 2019-03-XX
+## [0.4.0] - 2019-03-15
 - Improve colouring for HTML.
+- Improve colouring for Batch scripts.
+- Make it easier to see selected text in highlighted search results.
 
 ## [0.3.0] - 2019-03-06
 - Improve colouring for C#.
