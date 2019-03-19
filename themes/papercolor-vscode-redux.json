@@ -1251,7 +1251,75 @@
         }
       },
 
-
+      // C/C++ Customizations
+      {
+        "scope": [
+          "storage.type.c"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.c",
+          "keyword.operator.bitwise.shift.c",
+          "support.function.C99.c"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.block.c",
+          "meta.function.c"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.c"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.pragma.preprocessor.c",
+          "keyword.control.directive.pragma.c",
+          "keyword.control.directive.pragma.c punctuation.definition.directive.c",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.directive.define.c"
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.preprocessor.c"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
 
     ]
 }

@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [0.5.0] - 2019-03-XX
+- Improve colouring for C/C++.
+
 ## [0.4.0] - 2019-03-15
 - Improve colouring for HTML.
 - Improve colouring for Batch scripts.
