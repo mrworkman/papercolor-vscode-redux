@@ -1254,7 +1254,8 @@
       // C/C++ Customizations
       {
         "scope": [
-          "storage.type.c"
+          "storage.type.c",
+          "storage.modifier.cpp"
         ],
         "settings": {
           "foreground": "#d70087",
@@ -1263,9 +1264,50 @@
       },
       {
         "scope": [
+          "support.function.C99.c",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold italic"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.sizeof.c",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.cast.cpp",
+          "variable.language.this.cpp",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
           "keyword.operator.c",
           "keyword.operator.bitwise.shift.c",
-          "support.function.C99.c"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.block.c",
+          "meta.class-struct-block.cpp",
+          "meta.extern-block.cpp",
+          "meta.function.c",
+          "meta.function-call.c",
+          "meta.namespace-block.cpp",
         ],
         "settings": {
           "foreground": "#424242",
@@ -1274,12 +1316,11 @@
       },
       {
         "scope": [
-          "meta.block.c",
-          "meta.function.c"
+          "support.type.posix-reserved.c",
         ],
         "settings": {
-          "foreground": "#424242",
-          "fontStyle": ""
+          "foreground": "#d70087",
+          "fontStyle": "bold"
         }
       },
       {
@@ -1304,7 +1345,8 @@
       },
       {
         "scope": [
-          "keyword.control.directive.define.c"
+          "keyword.control.directive.define.c",
+          "keyword.control.directive.conditional.c"
         ],
         "settings": {
           "foreground": "#005faf",
@@ -1318,6 +1360,47 @@
         "settings": {
           "foreground": "#8700af",
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.namespace-block.cpp storage.type.cpp"
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.c constant.character.escape.c",
+          "string.quoted.double.cpp constant.character.escape.cpp"
+        ],
+        "settings": {
+          "foreground": "#6f9700",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.double.c constant.other.placeholder.c",
+          "string.quoted.double.cpp constant.other.placeholder.c"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.comparison.c",
+          "keyword.operator.logical.c",
+          "keyword.operator.increment.c",
+          "keyword.operator.decrement.c",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
         }
       },
 
