@@ -3,6 +3,7 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 
 ## [0.5.0] - 2019-03-XX
 - Improve colouring for C/C++.
+- Improve colouring for x86 Assembly.
 
 ## [0.4.0] - 2019-03-15
 - Improve colouring for HTML.

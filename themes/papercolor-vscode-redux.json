@@ -1251,6 +1251,7 @@
         }
       },
 
+      //
       // C/C++ Customizations
       {
         "scope": [
@@ -1401,6 +1402,65 @@
         "settings": {
           "foreground": "#424242",
           "fontStyle": "bold"
+        }
+      },
+
+      //
+      // x86 ASM Customizations
+      {
+        "scope": [
+          "source.asm.x86_64 keyword.mnemonic.general-purpose.binary-arithmetic",
+          "source.asm.x86_64 keyword.mnemonic.general-purpose.control-transfer.jmp",
+          "source.asm.x86_64 keyword.mnemonic.general-purpose.data-transfer.mov"
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "source.asm.x86_64 constant.language.registers.general-purpose",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "source.asm.x86_64 constant.numeric.hex",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "support.type.asm",
+        ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "source.asm.x86_64 entity.name.function",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "source.asm.x86_64 meta.preprocessor.c keyword.control.import.c",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
         }
       },
 
