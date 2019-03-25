@@ -981,11 +981,19 @@
       {
         "scope": [
           "storage.modifier.shell",
-          "support.function.builtin.shell"
         ],
         "settings": {
           "foreground": "#d70087",
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "support.function.builtin.shell",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold italic"
         }
       },
       {
@@ -1002,6 +1010,61 @@
         "scope": "variable.other.special.shell",
         "settings": {
           "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.scope.if-block.shell",
+          "meta.scope.case-clause-body.shell",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical.shell",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.shell",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.scope.case-clause.shell meta.scope.case-pattern.shell",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.scope.case-clause.shell meta.scope.case-pattern.shell punctuation.definition.case-pattern.shell",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "variable.other.bracket.shell",
+        ],
+        "settings": {
+          "foreground": "#d70087",
           "fontStyle": "bold"
         }
       },
