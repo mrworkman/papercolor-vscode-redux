@@ -21,25 +21,25 @@
       "button.background": "#0277BD",
       "button.foreground": "#eeeeee",
       "button.hoverBackground": "#155f87",
-      
+
       // contrast
       "contrastActiveBorder": "#00000000",
       "contrastBorder": "#ffffff00",
-      
+
       // debug
       "debugExceptionWidget.background": "#eeeeee",
       "debugExceptionWidget.border": "#0d3a58",
       "debugToolBar.background": "#eeeeee",
-      
+
       // description
       "descriptionForeground": "#aaa",
-      
+
       // diff
-      "diffEditor.insertedTextBackground": "#00C85388",
-      "diffEditor.insertedTextBorder": "#1B5E20",
-      "diffEditor.removedTextBackground": "#F5005788",
-      "diffEditor.removedTextBorder": "#D50000",
-      
+      "diffEditor.insertedTextBackground": "#00C85320",
+      "diffEditor.insertedTextBorder": "#00C85380",
+      "diffEditor.removedTextBackground": "#F5005720",
+      "diffEditor.removedTextBorder": "#F5005780",
+
       // dropdown
       "dropdown.background": "#ffffff",
       "dropdown.border": "#eeeeee",
@@ -62,12 +62,12 @@
 
       // When you hover over something and a popup shows, this highlights that thing
       "editor.hoverHighlightBackground": "#B0BEC5dd",
-      
+
       // current line styles
       "editor.lineHighlightBackground": "#B3E5FCe8",
       "editor.lineHighlightBorder": "#81D4FA",
       "editor.rangeHighlightBackground": "#B3E5FC",
-      
+
       // selected Text colours
       // This is the standard Select colour.
       "editor.selectionBackground": "#81D4FA",
@@ -94,7 +94,7 @@
       "editorGutter.addedBackground": "#3C9F4A",
       "editorGutter.deletedBackground": "#A22929",
       "editorGutter.modifiedBackground": "#26506D",
-      
+
       // editorGroup
       "editorGroup.border": "#CFD8DC",
       "editorGroup.dropBackground": "#12273899",
@@ -103,7 +103,7 @@
       "editorGroupHeader.noTabsBackground": "#eeeeee",
       "editorGroupHeader.tabsBackground": "#eeeeee",
       "editorGroupHeader.tabsBorder": "#B0BEC5",
-      
+
       // editorHoverWidget
       "editorHoverWidget.background": "#eeeeee",
       "editorHoverWidget.border": "#546E7A",
@@ -115,7 +115,7 @@
       // Line numbers displayed in the gutter.
       "editorLineNumber.foreground": "#bdbdbd",
       "editorLineNumber.activeForeground": "#78909C",
-      
+
       "editorLink.activeForeground": "#aaa",
       // editorMarkerNavigation
       "editorMarkerNavigation.background": "#3B536433",
@@ -137,7 +137,7 @@
       "editorWarning.border": "#ffffff00",
       "editorWarning.foreground": "#ffc600",
       "editorWhitespace.foreground": "#0D47A148",
-      
+
       "editorWidget.background": "#eeeeee",
       "editorWidget.resizeBorder": "#155f87",
       "editorWidget.border": "#0d3a58",
@@ -148,9 +148,9 @@
       "extensionButton.prominentForeground": "#fff",
       "extensionButton.prominentHoverBackground": "#ff9d00",
       "focusBorder": "#0d3a58",
-      
+
       "foreground": "#424242",
-      
+
       // input
       "input.background": "#ffffff",
       "input.border": "#eeeeee",
@@ -179,7 +179,7 @@
       "list.inactiveSelectionBackground": "#0091EA88",
       "list.inactiveSelectionForeground": "#424242",
       "list.warningForeground": "#FF6F00",
-      
+
       // menu
       "menu.background": "#eeeeee",
       "menu.foreground": "#444444",
@@ -197,7 +197,7 @@
       "merge.currentHeaderBackground": "#2F7366",
       "merge.incomingContentBackground": "#185294",
       "merge.incomingHeaderBackground": "#185294",
-      
+
       // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
       "notificationCenter.border": "#0d3a58",
       "notificationCenterHeader.foreground": "#424242",
@@ -229,7 +229,7 @@
       "peekViewTitle.background": "#CFD8DC",
       "peekViewTitleDescription.foreground": "#263238",
       "peekViewTitleLabel.foreground": "#d70087",
-      
+
       // picker
       "pickerGroup.border": "#0d3a58",
       "pickerGroup.foreground": "#aaa",
@@ -241,11 +241,11 @@
       "scrollbarSlider.activeBackground": "#58585880",
       "scrollbarSlider.background": "#58585820",
       "scrollbarSlider.hoverBackground": "#58585840",
-      
+
       // selection
       "selection.background": "#B3E5FC",
 
-      "settings.checkboxBackground": "#ffffff",      
+      "settings.checkboxBackground": "#ffffff",
       "settings.checkboxForeground": "#d70087",
       "settings.headerForeground": "#155f87",
 
@@ -256,7 +256,7 @@
       "sideBarSectionHeader.background": "#E0E0E0",
       "sideBarSectionHeader.foreground": "#424242",
       "sideBarTitle.foreground": "#424242",
-      
+
       // statusBar
       "statusBar.background": "#155f87",
       "statusBar.border": "#4A148C",
@@ -267,7 +267,7 @@
       "statusBar.noFolderBackground": "#155f87",
       "statusBar.noFolderBorder": "#4A148C",
       "statusBar.noFolderForeground": "#eeeeee",
-      
+
       "statusBarItem.activeBackground": "#039BE5",
       "statusBarItem.hoverBackground": "#0277BD",
       "statusBarItem.prominentBackground": "#039BE5",
@@ -282,7 +282,7 @@
       "tab.inactiveForeground": "#757575",
       "tab.unfocusedActiveForeground": "#757575",
       "tab.unfocusedInactiveForeground": "#9E9E9E",
-      
+
       // --- workbench: terminal
       "terminal.ansiBlack": "#000000",
       "terminal.ansiRed": "#CC0000",
@@ -312,7 +312,7 @@
       "gitDecoration.untrackedResourceForeground": "#33691E",
       "gitDecoration.ignoredResourceForeground": "#616161",
       "gitDecoration.conflictingResourceForeground": "#FF3D00",
-      
+
       // textBlockQuote
       "textBlockQuote.background": "#EDE7F6",
       "textBlockQuote.border": "#6200EA",
@@ -320,7 +320,7 @@
 
       "textLink.activeForeground": "#7E57C2",
       "textLink.foreground": "#311B92",
-      
+
       "textPreformat.foreground": "#d70087",
       "textSeparator.foreground": "#f00",
 
@@ -329,7 +329,7 @@
       "titleBar.activeForeground": "#eeeeee",
       "titleBar.inactiveBackground": "#01579B",
       "titleBar.inactiveForeground": "#eeeeeeaa",
-      
+
       "walkThrough.embeddedEditorBackground": "#e0e0e068",
       "welcomePage.buttonBackground": "#CFD8DC",
       "welcomePage.buttonHoverBackground": "#B0BEC5",
