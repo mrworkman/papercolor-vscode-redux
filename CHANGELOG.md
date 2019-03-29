@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [0.5.0] - 2019-03-XX
+## [0.5.0] - 2019-03-29
 - Improve colouring for C/C++.
 - Improve colouring for x86 Assembly (requires  [13xforever.language-x86-64-assembly](https://marketplace.visualstudio.com/items?itemName=13xforever.language-x86-64-assembly) extension).
 - Improve colouring for Shell scripts.
