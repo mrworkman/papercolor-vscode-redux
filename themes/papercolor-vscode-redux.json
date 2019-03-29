@@ -879,7 +879,6 @@
       },
       {
         "scope": [
-          "variable.other.readwrite.batchfile",
           "variable.parameter.batchfile",
           "punctuation.definition.variable.batchfile",
         ],
@@ -890,7 +889,15 @@
       },
       {
         "scope": [
-          "string.quoted.double.batchfile variable.other.readwrite.batchfile",
+          "variable.other.readwrite.batchfile",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
           "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.begin.batchfile",
           "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.end.batchfile"
         ],
@@ -999,11 +1006,19 @@
       {
         "scope": [
           "punctuation.definition.variable.shell",
-          "variable.other.normal.shell"
         ],
         "settings": {
           "foreground": "#005f87",
           "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "variable.other.normal.shell"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
         }
       },
       {
