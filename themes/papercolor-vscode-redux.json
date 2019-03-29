@@ -857,6 +857,15 @@
       //
       // Batch Customizations
       {
+        "scope": [
+            "meta.group.batchfile",
+        ],
+        "settings": {
+            "foreground": "#424242",
+            "fontStyle": ""
+        }
+      },
+      {
         "scope": "keyword.command.rem.batchfile",
         "settings": {
           "foreground": "#878787",
@@ -890,20 +899,12 @@
       {
         "scope": [
           "variable.other.readwrite.batchfile",
-        ],
-        "settings": {
-          "foreground": "#d70087",
-          "fontStyle": "bold"
-        }
-      },
-      {
-        "scope": [
           "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.begin.batchfile",
           "string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.end.batchfile"
         ],
         "settings": {
           "foreground": "#005f87", // 6f9700
-          "fontStyle": ""
+          "fontStyle": "bold"
         }
       },
       {
