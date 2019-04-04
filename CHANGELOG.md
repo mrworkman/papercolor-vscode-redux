@@ -3,6 +3,7 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 
 ## [0.6.0] - 2019-03-XX
 - Again, tweak colouring for Batch scripts.
+- Improve colouring for Groovy.
 
 ## [0.5.0] - 2019-03-29
 - Improve colouring for C/C++.

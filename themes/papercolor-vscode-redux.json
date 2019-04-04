@@ -1194,6 +1194,105 @@
       },
 
       //
+      // Groovy Customizations
+      {
+        "scope": [
+          "meta.import.groovy keyword.other.import.groovy",
+          "meta.import.groovy keyword.other.import.static.groovy",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.import.groovy storage.modifier.import.groovy",
+          "meta.definition.method.groovy"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.groovy"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "storage.type.primitive.groovy",
+          "storage.type.def.groovy",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.navigation.groovy",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "punctuation.section.embedded.groovy",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "source.groovy.embedded.source",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.method-call.groovy",
+          "meta.method-call.groovy meta.method.groovy",
+          "meta.evaluation.ternary.groovy",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.assignment.groovy",
+          "keyword.operator.comparison.groovy",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "constant.language.groovy",
+        ],
+        "settings": {
+          "foreground": "#008700",
+          "fontStyle": "bold"
+        }
+      },
+
+      //
       // C# Customizations
       {
         "scope": "storage.type.cs",
