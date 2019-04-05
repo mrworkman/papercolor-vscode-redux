@@ -1276,6 +1276,10 @@
         "scope": [
           "keyword.operator.assignment.groovy",
           "keyword.operator.comparison.groovy",
+          "keyword.operator.logical.groovy",
+          "keyword.operator.ternary.groovy",
+          "keyword.operator.arithmetic.groovy",
+          "keyword.operator.ternary.expression-seperator.groovy",
         ],
         "settings": {
           "foreground": "#424242",
@@ -1285,10 +1289,22 @@
       {
         "scope": [
           "constant.language.groovy",
+          "constant.other.groovy",
         ],
         "settings": {
           "foreground": "#008700",
           "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.method-parameters.begin.groovy",
+          "punctuation.definition.method-parameters.end.groovy",
+          "meta.definition.method.signature.java",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": ""
         }
       },
 
