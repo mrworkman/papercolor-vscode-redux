@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [0.6.0] - 2019-03-XX
+## [0.6.0] - 2019-04-09
 - Again, tweak colouring for Batch scripts.
 - Improve colouring for Groovy.
 
