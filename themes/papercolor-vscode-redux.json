@@ -387,13 +387,6 @@
         }
       },
       {
-        "name": "Meta",
-        "scope": "meta",
-        "settings": {
-          "foreground": "#d70087"
-        }
-      },
-      {
         "name": "Meta Brace",
         "scope": "meta.brace",
         "settings": {
