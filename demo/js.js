@@ -11,6 +11,15 @@ const wes = 100;
 function wes() {
    let str1 = `some template: ${1}`;
    let str2 = 'some string';
+
+   var f = "foo";
+
+   if (something == true && a <= b) {
+
+      throw new Exception();
+   }
+
+   return 42;
 }
 
 const wes = () => { };
