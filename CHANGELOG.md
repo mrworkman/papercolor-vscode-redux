@@ -3,7 +3,8 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 
 ## [0.7.0] - 2019-04-XX
 - Remove base "Meta" colouring.
-- 
+- Update colouring for C#.
+- Update colouring for Javascript.
 
 ## [0.6.0] - 2019-04-09
 - Again, tweak colouring for Batch scripts.
