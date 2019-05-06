@@ -1084,7 +1084,8 @@
           "meta.method.body.java",
           "meta.try.body.java",
           "meta.function-call.java",
-          "meta.definition.variable.java storage.type.java"
+          "meta.definition.variable.java storage.type.java",
+          "constant.other.key.java"
         ],
         "settings": {
           "foreground": "#424242",
@@ -1168,6 +1169,112 @@
         ],
         "settings": {
           "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+
+      //
+      // Kotlin Customizations
+      {
+        "scope": [
+          "meta.import.kotlin keyword.other.package.kotlin",
+          "meta.import.kotlin keyword.other.import.kotlin",
+          "meta.import.kotlin storage.modifier.kotlin"
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "meta.import.kotlin storage.modifier.import.java",
+          "meta.block.kotlin",
+          "meta.class.kotlin",
+          "constant.other.key.kotlin"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.declaration.kotlin",
+          "keyword.operator.assignment.kotlin",
+          "keyword.operator.comparison.kotlin"
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.package.kotlin",
+          "meta.class.kotlin meta.block.kotlin storage.modifier.kotlin"
+        ],
+        "settings": {
+          "foreground": "#005f87",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.class.kotlin storage.modifier.kotlin",
+          "meta.class.kotlin meta.block.kotlin storage.type.kotlin"
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "meta.class.kotlin meta.block.kotlin entity.name.function.constructor",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.conditional.kotlin",
+          "keyword.control.catch-exception.kotlin",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.keyword.kotlin",
+          "punctuation.section.block.begin.kotlin",
+          "punctuation.section.block.end.kotlin"
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "storage.type.annotation.kotlin",
+          "meta.declaration.annotation.kotlin",
+        ],
+        "settings": {
+          "foreground": "#d75f00",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "constant.language.kotlin",
+        ],
+        "settings": {
+          "foreground": "#008700",
           "fontStyle": "bold"
         }
       },

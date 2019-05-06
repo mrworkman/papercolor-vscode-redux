@@ -1,8 +1,9 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [0.7.0] - 2019-04-XX
+## [0.7.0] - 2019-05-06
 - Remove base "Meta" colouring.
+- Improve colouring for Kotlin.
 - Update colouring for C#.
 - Update colouring for Javascript.
 
