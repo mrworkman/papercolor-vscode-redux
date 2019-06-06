@@ -2,7 +2,8 @@
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
 ## [0.8.0] - 2019-05-XX
-- 
+- Improve colouring for Typescript.
+- Minor corrections to Javascript and C# colouring.
 
 ## [0.7.0] - 2019-05-06
 - Remove base "Meta" colouring.

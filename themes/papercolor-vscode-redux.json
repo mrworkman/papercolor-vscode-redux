@@ -1503,6 +1503,17 @@
           "fontStyle": ""
         }
       },
+      {
+        "scope": [
+          "constant.language.boolean.true.cs",
+          "constant.language.boolean.false.cs",
+          "constant.language.null.cs",
+        ],
+        "settings": {
+          "foreground": "#008700",
+          "fontStyle": "bold"
+        }
+      },
 
       //
       // HTML Customizations
@@ -1806,6 +1817,8 @@
       {
         "scope": [
           "constant.language.boolean.true.js",
+          "constant.language.boolean.false.js",
+          "constant.language.null.js",
         ],
         "settings": {
           "foreground": "#008700",
@@ -1832,6 +1845,103 @@
         }
       },
 
+      //
+      // Typescript Customizations
+      {
+        "scope": "storage.modifier.ts",
+        "settings": {
+          "foreground": "#005ff87",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "support.type.primitive.ts",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "constant.language.boolean.true.ts",
+          "constant.language.boolean.false.ts",
+          "constant.language.null.ts",
+        ],
+        "settings": {
+          "foreground": "#008700",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.conditional.ts",
+          "keyword.control.trycatch.ts",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.import.ts",
+          "keyword.control.flow.ts",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "storage.modifier.async.ts",
+        ],
+        "settings": {
+          "foreground": "#005faf",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.assignment.ts",
+          "keyword.operator.comparison.ts",
+          "keyword.operator.relational.ts",
+        ],
+        "settings": {
+          "foreground": "#424242",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "comment.block.documentation.ts storage.type.class.jsdoc",
+        ],
+        "settings": {
+          "foreground": "#d70087",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.template-expression.begin.ts",
+          "punctuation.definition.template-expression.end.ts",
+        ],
+        "settings": {
+          "foreground": "#8700af",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.new.ts",
+        ],
+        "settings": {
+          "foreground": "#0087af",
+          "fontStyle": ""
+        }
+      },
 
     ]
 }
