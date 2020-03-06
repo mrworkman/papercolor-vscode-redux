@@ -158,12 +158,15 @@
       "input.placeholderForeground": "#9E9E9E",
       "inputOption.activeBorder": "#d70087",
 
+      "inputValidation.errorForeground": "#424242",
       "inputValidation.errorBackground": "#FCE4EC",
       "inputValidation.errorBorder": "#EC407A",
-      "inputValidation.infoBackground": "#193549",
-      "inputValidation.infoBorder": "#0D3A58",
-      "inputValidation.warningBackground": "#193549",
-      "inputValidation.warningBorder": "#ffc600",
+      "inputValidation.infoForeground": "#424242",
+      "inputValidation.infoBackground": "#fff",
+      "inputValidation.infoBorder": "#0277BD",
+      "inputValidation.warningForeground": "#424242",
+      "inputValidation.warningBackground": "#ffff8d",
+      "inputValidation.warningBorder": "#edd740",
 
       // list
       "list.activeSelectionBackground": "#0091EA",
