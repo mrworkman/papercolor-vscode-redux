@@ -35,10 +35,9 @@
       "descriptionForeground": "#aaa",
 
       // diff
-      "diffEditor.insertedTextBackground": "#00C85320",
-      "diffEditor.insertedTextBorder": "#00C85380",
+      "diffEditor.insertedTextBackground": "#78c2a354",
       "diffEditor.removedTextBackground": "#F5005720",
-      "diffEditor.removedTextBorder": "#F5005780",
+      "diffEditor.diagonalFill": "#B0BEC5",
 
       // dropdown
       "dropdown.background": "#ffffff",
@@ -193,13 +192,13 @@
       "menubar.selectionForeground": "#eeeeee",
 
       // merge
-      "merge.border": "#ffffff00",
-      "merge.commonContentBackground": "#c97d0c",
-      "merge.commonHeaderBackground": "#c97d0c",
-      "merge.currentContentBackground": "#2F7366",
-      "merge.currentHeaderBackground": "#2F7366",
-      "merge.incomingContentBackground": "#185294",
-      "merge.incomingHeaderBackground": "#185294",
+      "merge.border": "#444444",
+      "merge.commonContentBackground": "#d7008736",
+      "merge.commonHeaderBackground": "#d70087",
+      "merge.currentContentBackground": "#78c2a354",
+      "merge.currentHeaderBackground": "#398d3d",
+      "merge.incomingContentBackground": "#0091EA36",
+      "merge.incomingHeaderBackground": "#0091EA",
 
       // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
       "notificationCenter.border": "#0d3a58",

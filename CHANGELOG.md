@@ -1,8 +1,8 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [0.9.0] - 2020-XX-XX
-- 
+## [0.9.0] - 2020-06-16
+- Fix merge colours. Thanks to @g7fernandes for pointing it out!
 
 ## [0.8.0] - 2020-03-06
 - Improve colouring for Typescript.
