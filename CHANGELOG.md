@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [0.10.0] - 2020-XX-XX
+- 
+
 ## [0.9.0] - 2020-06-16
 - Fix merge colours. Thanks to @g7fernandes for pointing it out!
 
