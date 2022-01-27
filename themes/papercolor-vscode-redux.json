@@ -35,7 +35,7 @@
       "descriptionForeground": "#aaa",
 
       // diff
-      "diffEditor.insertedTextBackground": "#78c2a354",
+      "diffEditor.insertedTextBackground": "#78c2a334",
       "diffEditor.removedTextBackground": "#F5005720",
       "diffEditor.diagonalFill": "#B0BEC5",
 
@@ -125,13 +125,14 @@
       "editorOverviewRuler.commonContentForeground": "#ffc60055",
       "editorOverviewRuler.currentContentForeground": "#ee3a4355",
       "editorOverviewRuler.incomingContentForeground": "#3ad90055",
-      "editorRuler.foreground": "#1F4662",
+      "editorRuler.foreground": "#ff408133",
       // editorSuggestWidget
       "editorSuggestWidget.background": "#eeeeee",
       "editorSuggestWidget.border": "#0d3a58",
       "editorSuggestWidget.foreground": "#424242",
       "editorSuggestWidget.highlightForeground": "#d70087",
       "editorSuggestWidget.selectedBackground": "#B3E5FCe8",
+      "editorSuggestWidget.selectedForeground": "#424242",
       // editorWarning
       "editorWarning.border": "#ffffff00",
       "editorWarning.foreground": "#ffc600",
@@ -326,11 +327,11 @@
       "textPreformat.foreground": "#d70087",
       "textSeparator.foreground": "#f00",
 
-      "titleBar.border": "#4A148C",
-      "titleBar.activeBackground": "#01579B",
-      "titleBar.activeForeground": "#eeeeee",
-      "titleBar.inactiveBackground": "#01579B",
-      "titleBar.inactiveForeground": "#eeeeeeaa",
+      "titleBar.border": "#00000008",
+      "titleBar.activeBackground": "#eeeeee",
+      "titleBar.activeForeground": "#444444",
+      "titleBar.inactiveBackground": "#c7c7c7aa",
+      "titleBar.inactiveForeground": "#01579B",
 
       "walkThrough.embeddedEditorBackground": "#e0e0e068",
       "welcomePage.buttonBackground": "#CFD8DC",
@@ -1944,6 +1945,24 @@
           "fontStyle": ""
         }
       },
-
+      {
+        "name": "Docker Variable Braces",
+        "scope": [
+            "punctuation.section.bracket.curly.variable.begin.shell",
+            "punctuation.section.bracket.curly.variable.end.shell"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#8700af"
+        }
+      },
+      {
+        "name": "Docker Variable",
+        "scope": ["variable.other.dockerfile", "meta.argument.shell"],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#d70087"
+        }
+      },
     ]
 }
