@@ -2,6 +2,7 @@
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
 ## [0.11.0] - 2022-XX-XX
+- Slight colour adjustments.
 - 
 
 ## [0.10.0] - 2022-01-27

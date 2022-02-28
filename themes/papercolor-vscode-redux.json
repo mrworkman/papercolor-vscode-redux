@@ -46,7 +46,7 @@
 
       // editor
       // This is the main background color
-      "editor.background": "#eeeeee",
+      "editor.background": "#f3f3f3",
       // this is the main text colour
       "editor.foreground": "#424242",
 
@@ -73,7 +73,7 @@
       "editor.inactiveSelectionBackground": "#81D4FA",
 
       // This is the colour of the other matching elements
-      "editor.selectionHighlightBackground": "#B3E5FC",
+      "editor.selectionHighlightBackground": "#B3E5FC88",
 
       // Word Highlights! This happens when you move your cursor inside a variable
       // Strong is the one where your cursor currently is
@@ -201,6 +201,9 @@
       "merge.incomingContentBackground": "#0091EA36",
       "merge.incomingHeaderBackground": "#0091EA",
 
+      // Minimap
+      "minimap.background": "#eeeeee",
+
       // notification colors - The colors below only apply for VS Code versions 1.21 and higher.
       "notificationCenter.border": "#0d3a58",
       "notificationCenterHeader.foreground": "#424242",
@@ -253,7 +256,7 @@
       "settings.headerForeground": "#155f87",
 
       // sidebar
-      "sideBar.background": "#eeeeee",
+      "sideBar.background": "#f3f3f3",
       "sideBar.border": "#B0BEC5",
       "sideBar.foreground": "#424242",
       "sideBarSectionHeader.background": "#E0E0E0",
@@ -303,7 +306,7 @@
       "terminal.ansiBrightMagenta": "#AD7FA8",
       "terminal.ansiBrightCyan": "#00B0B0",
       "terminal.ansiBrightWhite": "#193549",
-      "terminal.background": "#CFD8DC",
+      "terminal.background": "#f3f3f3",
       "terminal.foreground": "#444444",
       "terminal.selectionBackground": "#155f8788",
       "terminalCursor.background": "#ddd",
