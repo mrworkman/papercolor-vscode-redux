@@ -51,10 +51,11 @@
       "editor.foreground": "#424242",
 
       // Currently found item
-      "editor.findMatchBackground": "#ffff8d",
+      "editor.findMatchBackground": "#ffff5f",
+      "editor.findMatchBorder": "#ffff5f",
       // Other Found Items in the document
-      "editor.findMatchHighlightBackground": "#FFFDE7aa",
-      "editor.findMatchHighlightBorder": "#FFFDE7",
+      "editor.findMatchHighlightBackground": "#ffff5f66",
+      "editor.findMatchHighlightBorder": "#ffff5f88",
 
       // Highlights the "range" (lines) in the selection that the search applies to.
       "editor.findRangeHighlightBackground": "#CFD8DC60",
@@ -63,14 +64,14 @@
       "editor.hoverHighlightBackground": "#B0BEC5dd",
 
       // current line styles
-      "editor.lineHighlightBackground": "#B3E5FCe8",
-      "editor.lineHighlightBorder": "#81D4FA",
-      "editor.rangeHighlightBackground": "#B3E5FC",
+      "editor.lineHighlightBackground": "#e4e4e4",
+      "editor.lineHighlightBorder": "#e4e4e4",
+      "editor.rangeHighlightBackground": "#e4e4e4",
 
       // selected Text colours
       // This is the standard Select colour.
-      "editor.selectionBackground": "#81D4FA",
-      "editor.inactiveSelectionBackground": "#81D4FA",
+      "editor.selectionBackground": "#0087af88",
+      "editor.inactiveSelectionBackground": "#0087af77",
 
       // This is the colour of the other matching elements
       "editor.selectionHighlightBackground": "#B3E5FC88",
@@ -84,7 +85,7 @@
       "editorBracketMatch.border": "#9e9e9e",
       "editorCodeLens.foreground": "#aaa",
 
-      "editorCursor.foreground": "#757575",
+      "editorCursor.foreground": "#005f87",
       "editorError.border": "#00000000",
       "editorError.foreground": "#F50057",
 
