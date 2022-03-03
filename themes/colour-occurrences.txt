@@ -1,0 +1,65 @@
+  44 #424242
+  31 #d70087
+  19 #005f87
+  18 #8700af
+  12 #0087af
+  12 #005faf
+   6 #008700
+   5 #f00
+   5 #6f9700
+   4 #878787
+   3 #d75f00
+   3 #444444
+   2 #d86307
+   2 #d70000
+   2 #AA00FF
+   1 #e1efff
+   1 #af0000
+   1 #a5ff90
+   1 #880E4F
+   1 #01579B
+   1 #00af5f
+   1 #005ff8
+
+#5f8700
+#af5f00
+#afd7ff
+#afff87
+#afffaf
+#b2b2b2
+#bcbcbc
+#c6c6c6
+#d0d0d0
+#d7d7ff
+#e4e4e4
+#eeeeee
+#ffafd7
+#ffd787
+#ffd7ff
+#ffff00
+#ffff5f
+#ffffaf
+#ffffd7
+
+
+background', color00  #eeeeee
+negative',   color01  #af0000
+positive',   color02  #008700
+olive',      color03  #5f8700
+neutral',    color04  #0087af
+comment',    color05  #878787
+navy',       color06  #005f87
+foreground', color07  #444444
+
+nontext',   color08   #bcbcbc
+red',       color09   #d70000
+pink',      color10   #d70087
+purple',    color11   #8700af
+accent',    color12   #d75f00
+orange',    color13   #d75f00
+blue',      color14   #005faf
+highlight', color15   #005f87
+
+Repeats:
+color16   #0087af
+color17   #008700
