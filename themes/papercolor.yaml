@@ -1,6 +1,8 @@
 name: Papercolor Redux
 type: light
 
+# Use the Flutter Color extension to see colour swatches and picker.
+
 namedColors:
   # Standard Papercolor colours
   - &background "#eeeeee"

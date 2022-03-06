@@ -1,5 +1,11 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
-*.vsix
+# Excludes files from being added to .vsix package.
+
+# Ignore all files by default
+**/*
+
+# Things to allow.
+!LICENSE
+!CHANGELOG.md
+!README.md
+!images/*.png
+!themes/papercolor-vscode-redux.json
