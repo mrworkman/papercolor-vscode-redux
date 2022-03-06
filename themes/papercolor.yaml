@@ -1,7 +1,7 @@
 name: Papercolor Redux
 type: light
 
-named-colors:
+namedColors:
   # Standard Papercolor colours
   - &background "#eeeeee"
   - &negative   "#af0000"
@@ -23,7 +23,7 @@ named-colors:
   # Non-standard colours
 
 
-ui-colors:
+uiColors:
   # activityBar
   activityBar.background: "#eeeeee"
   activityBar.border: "#B0BEC5"
@@ -563,7 +563,7 @@ tokenColors:
       - markup.quote.markdown meta.paragraph.markdown
       - markup.italic.markdown
       - variable.parameter.function.language.python
-    bold|italic:
+    bold italic:
       - keyword.command.batchfile
       - support.function.builtin.shell
       - support.function.C99.c
@@ -746,12 +746,12 @@ tokenColors:
   #
 
   - name: pale-blue
-    color: "#AA00FF"
+    color: "#e1efff"
     normal:
       - support.variable.property.dom
 
   - name: pale-green
-    color: "#AA00FF"
+    color: "#a5ff90"
     normal:
       - string.other.link.title.markdown
 
@@ -761,7 +761,7 @@ tokenColors:
       - entity.other.inherited-class.js
 
   - name: alt-blue
-    color: "#880E4F"
+    color: "#01579B"
     normal:
       - source.ini keyword
   
