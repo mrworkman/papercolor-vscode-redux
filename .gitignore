@@ -3,6 +3,7 @@
 *.vsix
 desktop.ini
 *.pri
+*.DS_Store
 
 bin/*
 node_modules/*

@@ -61,7 +61,7 @@ target.tokenColors = source.tokenColors.flatMap(it => {
     return styles.map(style => {
         var tokenSpec: ITokenSpec = {
             name: `${it.name}-${style}`,
-            scope: it[style],
+            scope: it[style] || [],
             settings: {
                 foreground: it.color,
                 fontStyle: style !== 'normal' ? style : "",
