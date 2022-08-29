@@ -2,7 +2,7 @@
     "name": "papercolor-vscode-redux",
     "displayName": "PaperColor Redux Theme",
     "description": "Updated papercolor theme for vscode.",
-    "version": "1.0.0",
+    "version": "1.0.0-PRERELEASE-0",
     "publisher": "mrworkman",
     "icon": "images/logo.png",
     "repository": {
@@ -33,9 +33,11 @@
         "ts-command-line-args": "^2.2.1",
         "typescript": "^4.6.2",
         "vsce": "~2.6.7",
+        "watch": "^1.0.2",
         "yaml": "~1.10.2"
     },
     "scripts": {
-        "build": "tsc && node bin/app.js --source-file=themes/papercolor.yaml --target-file themes/papercolor-vscode-redux.json"
+        "build": "tsc && node bin/app.js --source-file=src/themes/papercolor.yaml --target-file themes/papercolor-vscode-redux.json",
+        "watch": "watch 'npm run build' ./src/"
     }
 }

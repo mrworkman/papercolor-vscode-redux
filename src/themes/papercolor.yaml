@@ -384,6 +384,9 @@ tokenColors:
   
   - name: pcvim-green
     color: *green
+    normal:
+      - entity.name.type.option
+      - entity.name.type.result
     bold:
       - constant.language.bool
       - constant.language.boolean # FIXME: Doesn't work for Java :/
@@ -418,6 +421,7 @@ tokenColors:
       - meta.interpolation punctuation.definition.interpolation
       - meta.preprocessor keyword.control.directive
       - meta.template.expression punctuation
+      - punctuation.brackets.angle
       - punctuation.separator
       - source.cpp keyword.control.directive
       - storage.type.function.arrow
@@ -429,7 +433,9 @@ tokenColors:
   #     - keyword.control.new.java
   #     - keyword.operator.new.js
   #     - keyword.operator.new.ts
-  #   bold:
+    bold:
+      - meta.attribute
+      - meta.declaration.annotation
   #     - entity.name.type.class.python
   #     - entity.name.function.python
   #     - support.function.magic.python
@@ -438,19 +444,19 @@ tokenColors:
   #     - meta.definition.class.inherited.classes.java storage.modifier.extends.java
   #     - meta.class.kotlin storage.modifier.kotlin
   #     - meta.class.kotlin meta.block.kotlin storage.type.kotlin
-  #   italic:
+    italic:
+      - meta.macro entity.name
   #     - keyword.operator.sizeof.c
 
   - name: pcvim-comment
     color: *comment
     normal:
       - string.json punctuation.support.type.property-name
+      - text.html meta.tag.metadata.doctype
+      - text.html meta.tag.metadata.doctype entity.other.attribute-name
+      - text meta.tag punctuation.definition.tag
+      - text meta.tag punctuation.separator
   #     - keyword.command.rem.batchfile
-  #     - meta.tag.metadata.doctype.html entity.name.tag.html
-  #     - punctuation.definition.tag.begin.html
-  #     - punctuation.definition.tag.end.html
-  #   bold:
-  #     - meta.tag.metadata.doctype.html entity.other.attribute-name.html
     italic:
       - comment
   #     - punctuation.definition.comment
@@ -458,6 +464,12 @@ tokenColors:
   - name: pcvim-navy
     color: *navy
     normal:
+      - entity.name.type
+      - entity.name.type.struct
+      - entity.name.type.trait
+      - text.html meta.attribute string.quoted
+      - text.xml entity.other.attribute-name
+      # - text.xml meta.tag string.quoted
   #     - storage.type.function.arrow
   #     - support
   #     - markup.underline.link.markdown
@@ -469,6 +481,7 @@ tokenColors:
   #     - meta.tag.cs entity.other.attribute-name.cs entity.other.attribute-name.localname.cs
     bold:
       - storage.modifier
+      - storage.type.modifier
   #     - storage
   #     - entity.name.tag
   #     - source.css support
@@ -596,6 +609,7 @@ tokenColors:
       - keyword.control.trycatch
       - keyword.control.throw
       - keyword.control.flow.throw
+      - keyword.control.directive.include
 
       - support.type.exception.python # Higlights the type, not try/except/else
   #   italic:
@@ -604,12 +618,19 @@ tokenColors:
   - name: pcvim-pink
     color: *pink
     normal:
+      - keyword.declaration.trait
       - keyword.other storage.type
+      - keyword.other.rust
+      - keyword.control.return
       - keyword.control.flow.return
       - meta.use keyword
+      - meta.var.expr storage.type
       - punctuation.definition.block.sequence.item
       - punctuation.separator.dictionary.key-value
       - punctuation.separator.key-value.mapping
+      - storage.type.let
+      - text.html entity.other.attribute-name
+      - text.xml meta.tag.preprocessor punctuation.definition.tag
   #     - source.css entity
   #     - source.stylus entity
   #     - entity.other.attribute-name.id.css
@@ -628,17 +649,17 @@ tokenColors:
   #     - meta.import.groovy keyword.other.import.groovy
   #     - meta.import.groovy keyword.other.import.static.groovy
   #     - entity.name.tag.cs entity.name.tag.localname.cs
-  #     - entity.other.attribute-name.html
   #     - string.quoted.double.c constant.other.placeholder.c
   #     - string.quoted.double.cpp constant.other.placeholder.c
   #     - source.asm.x86_64 entity.name.function
   #     - comment.block.documentation.ts storage.type.class.jsdoc
     bold:
-      - entity.name.type
+      - entity.name.type.numeric
+      - entity.name.type.primitive
       - keyword.other.typedef
       - keyword.type
       - punctuation.definition.alias
-      - storage.type
+      - storage.type.primitive
       - variable.other.alias
   #     - storage.type.function
   #     - keyword
@@ -673,6 +694,7 @@ tokenColors:
   - name: pcvim-purple
     color: *purple
     normal:
+      - text meta.tag
       - entity.name.type.lifetime
   #     - punctuation.definition.keyword.kotlin
   #     - punctuation.section.block.begin.kotlin
@@ -701,7 +723,6 @@ tokenColors:
   #     - keyword.control.try.cs
   #     - keyword.control.try.catch.cs
   #     - keyword.control.try.finally.cs
-  #     - entity.name.tag.html
   #     - keyword.control.c
   #     - keyword.control.conditional.js
   #     - keyword.control.conditional.ts
@@ -731,16 +752,15 @@ tokenColors:
       - keyword
       - meta.preprocessor entity.name
       - meta.preprocessor keyword.control
-      - meta.macro entity.name
       - meta.use entity.name
       - string entity.name.tag
       - string support.type.property-name
+      - variable.language.super
   #     - keyword.other.special-method.batchfile
   #     - punctuation.definition.method-parameters.begin.groovy
   #     - punctuation.definition.method-parameters.end.groovy
   #     - meta.definition.method.signature.java
   #     - meta.tag.cs punctuation.definition.tag.cs
-  #     - string.quoted.double.html
   #     - keyword.operator.cast.cpp
   #     - variable.language.this.cpp
   #     - entity.other.attribute-name.pragma.preprocessor.c
@@ -751,10 +771,13 @@ tokenColors:
   #     - source.asm.x86_64 keyword.mnemonic.general-purpose.data-transfer.mov
   #     - source.asm.x86_64 meta.preprocessor.c keyword.control.import.c
     bold:
+      - keyword.declaration.enum
       - keyword.other.class
       - keyword.other.enum
       - keyword.other.namespace
       - keyword.other.struct
+      - keyword.other.typedef
+      - storage.type.class
       - storage.type.struct
       - keyword.declaration.struct storage.type
   #     - storage.modifier.java
