@@ -18,7 +18,7 @@
 
 A list:
  * Item 1
- * Item 2
+ - Item 2
 
 Some `inline code`.
 
@@ -26,5 +26,12 @@ Some `inline code`.
   A code block
 ```
     Another, different code block.
+
+| Heading | Heading |
+|--------:|---------|
+| a       | b       |
+
+<u>underlined</u>
+<br />
 
 

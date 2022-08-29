@@ -31,6 +31,7 @@ public class SomeClass extends FooClass {
    @SomeAnnotation
    @SomeOtherAnnotation(femputer = true)
    public String getSnooSnoo() {
+
       return "SNOO SNOO";
    }
 

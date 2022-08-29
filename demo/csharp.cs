@@ -1,16 +1,30 @@
+using System;
+
+namespace SomeNamespace {
+
+   public enum X {
+
+   }
+
+}
+
+
 public class SomeClass {
    
    private int _someint = 22;
    private const double x = 0.0;
    private readonly object o = new Object();
    
+   private bool x = true;
+   private bool x = false;
+
    // Some Comment...
 
    /// <summary>Some method.</summary>
    /// <param name="fl">Some description.</param>
    public SomeClass(float fl) {
       int l = 55;
-      string x = "Some String";
+      string x = $"Some {abc} String";
       foo();
    }
 
