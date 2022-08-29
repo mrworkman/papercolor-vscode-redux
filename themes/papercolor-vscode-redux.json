@@ -264,7 +264,9 @@
         "constant.language.bool",
         "constant.language.boolean",
         "constant.language.java",
-        "constant.language.kotlin"
+        "constant.language.json",
+        "constant.language.kotlin",
+        "constant.language.php"
       ],
       "settings": {
         "foreground": "#008700",
@@ -301,9 +303,13 @@
         "source.css constant.other.color punctuation.definition",
         "source.css meta.function support.function",
         "source.css meta.function punctuation.section.function",
+        "source.shell punctuation.section.bracket.curly",
+        "source.shell variable.other.normal",
+        "source.shell variable.parameter.positional",
         "storage.type.function.arrow",
         "text meta.tag punctuation.separator.namespace",
-        "text.html.markdown heading punctuation"
+        "text.html.markdown heading punctuation",
+        "text.html.php meta.embedded.block punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#0087af",
@@ -318,12 +324,19 @@
         "keyword.operator.logical",
         "keyword.other.class",
         "keyword.other.enum",
-        "meta.attribute",
+        "meta.attribute.rust",
         "meta.class meta.class.identifier storage.modifier",
         "meta.class meta.definition.class.inherited storage.modifier.extends",
         "meta.declaration.annotation",
+        "meta.decorator meta.brace.round",
+        "meta.decorator meta.function-call entity.name.function",
+        "meta.decorator punctuation.decorator",
+        "meta.function.decorator entity.name.function.decorator",
+        "meta.function.decorator punctuation.definition",
+        "source.js storage.modifier",
         "storage.type.class",
-        "storage.type.struct"
+        "storage.type.struct",
+        "support.function.magic"
       ],
       "settings": {
         "foreground": "#0087af",
@@ -372,6 +385,8 @@
         "entity.name.type.struct",
         "entity.name.type.trait",
         "source.cs meta.tag entity.other.attribute-name",
+        "source.js meta.tag.attributes string.quoted",
+        "source.shell variable.other.assignment",
         "text.html meta.attribute string.quoted",
         "text.xml entity.other.attribute-name"
       ],
@@ -403,6 +418,7 @@
         "meta.use entity.name.type",
         "source.json punctuation.separator.dictionary.key-value",
         "source.kotlin entity.string.template.element",
+        "source.ts punctuation.separator.key-value",
         "string.unquoted.plain.out"
       ],
       "settings": {
@@ -454,6 +470,8 @@
         "keyword.other storage.type",
         "keyword.control.directive.include",
         "keyword.control.flow.return",
+        "keyword.control.from",
+        "keyword.control.import",
         "keyword.control.return",
         "keyword.other.fn",
         "keyword.other.using",
@@ -470,11 +488,15 @@
         "source.css meta.selector entity.name.tag",
         "source.css meta.selector entity.other.attribute-name",
         "source.ini entity.name.section.group-title",
+        "source.js entity.other.attribute-name",
         "source.makefile string.interpolated punctuation.definition",
+        "source.python variable.parameter.function-call",
+        "source.shell entity.name.command",
         "storage.type.function",
         "text.html entity.other.attribute-name",
         "text.html.markdown meta string.other.link",
         "text.html.markdown markup.quote punctuation.definition.quote",
+        "text.html.php variable punctuation.definition",
         "text.xml meta.tag.preprocessor punctuation.definition.tag"
       ],
       "settings": {
@@ -495,6 +517,7 @@
         "source.js meta.var.expr storage.type",
         "storage.type.built-in.primitive",
         "storage.type.kotlin",
+        "storage.type.ts",
         "storage.type.let",
         "storage.type.primitive",
         "support.class.kotlin",
@@ -509,10 +532,13 @@
     {
       "name": "pcvim-purple-normal",
       "scope": [
-        "text meta.tag",
         "entity.name.type.lifetime",
+        "meta.import punctuation.definition",
+        "source.js meta.tag",
+        "source.shell string.interpolated punctuation.definition",
         "text.html.markdown markup.list punctuation.definition",
-        "text.html.markdown meta punctuation.definition.link"
+        "text.html.markdown meta punctuation.definition.link",
+        "text meta.tag"
       ],
       "settings": {
         "foreground": "#8700af",
@@ -554,12 +580,14 @@
         "meta.preprocessor keyword.control",
         "meta.use entity.name",
         "source.cs meta.tag punctuation.definition",
+        "source.ts meta.object-literal.key",
         "string entity.name.tag",
         "string support.type.property-name",
         "text.html.markdown markup.fenced_code punctuation.definition",
         "text.html.markdown markup.fenced_code fenced_code.block.language",
         "text.html.markdown markup.inline.raw.string punctuation.definition",
         "text.html.markdown meta markup.underline.link",
+        "text.html.php support.function",
         "variable.language.super",
         "variable.other.makefile"
       ],
@@ -576,6 +604,7 @@
         "keyword.other.typedef",
         "source.css constant.other.color",
         "source.css support.constant.color",
+        "source.shell support.function.builtin",
         "support.function.kotlin"
       ],
       "settings": {
