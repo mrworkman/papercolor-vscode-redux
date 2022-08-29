@@ -1,8 +1,11 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
-## [1.0.0] - 2022-XX-XX
-- 
+## [0.999.0] - 2022-08-29
+- v1.0.0 pre-release 0.
+- Refactor, using yaml source file.
+- Many colour changes to make theme more consistent with original vim theme, as
+  well as more consistent between file types.
 
 ## [0.11.0] - 2022-03-02
 - Slight colour adjustments.
