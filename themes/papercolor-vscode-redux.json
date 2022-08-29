@@ -291,8 +291,9 @@
       "scope": [
         "entity.string.template.element punctuation.definition",
         "entity.string.template.element punctuation.section.block",
-        "keyword.operator",
         "keyword.control.new",
+        "keyword.mnemonic",
+        "keyword.operator",
         "keyword.other.new",
         "meta.interpolation punctuation.definition.interpolation",
         "meta.preprocessor keyword.control.directive",
@@ -307,6 +308,7 @@
         "source.shell variable.other.normal",
         "source.shell variable.parameter.positional",
         "storage.type.function.arrow",
+        "support.function.mnemonic",
         "text meta.tag punctuation.separator.namespace",
         "text.html.markdown heading punctuation",
         "text.html.php meta.embedded.block punctuation.section.embedded"
@@ -380,6 +382,7 @@
     {
       "name": "pcvim-navy-normal",
       "scope": [
+        "constant.language.registers",
         "entity.name.type",
         "entity.name.type.class",
         "entity.name.type.struct",
@@ -387,6 +390,7 @@
         "source.cs meta.tag entity.other.attribute-name",
         "source.js meta.tag.attributes string.quoted",
         "source.shell variable.other.assignment",
+        "storage.register",
         "text.html meta.attribute string.quoted",
         "text.xml entity.other.attribute-name"
       ],
@@ -484,6 +488,7 @@
         "punctuation.definition.block.sequence.item",
         "punctuation.separator.dictionary.key-value",
         "punctuation.separator.key-value.mapping",
+        "source.arm variable.named",
         "source.cs meta.tag",
         "source.css meta.selector entity.name.tag",
         "source.css meta.selector entity.other.attribute-name",
