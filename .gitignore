@@ -8,3 +8,4 @@ desktop.ini
 bin/*
 node_modules/*
 
+themes/*.json
