@@ -262,7 +262,9 @@
       "name": "pcvim-green-bold",
       "scope": [
         "constant.language.bool",
-        "constant.language.boolean"
+        "constant.language.boolean",
+        "constant.language.java",
+        "constant.language.kotlin"
       ],
       "settings": {
         "foreground": "#008700",
@@ -272,7 +274,10 @@
     {
       "name": "pcvim-olive-normal",
       "scope": [
-        "string"
+        "string",
+        "text.html.markdown markup.fenced_code.block",
+        "text.html.markdown markup.inline.raw.string",
+        "text.html.markdown markup.raw.block"
       ],
       "settings": {
         "foreground": "#5f8700",
@@ -282,6 +287,8 @@
     {
       "name": "pcvim-aqua-normal",
       "scope": [
+        "entity.string.template.element punctuation.definition",
+        "entity.string.template.element punctuation.section.block",
         "keyword.operator",
         "keyword.control.new",
         "keyword.other.new",
@@ -291,7 +298,12 @@
         "punctuation.brackets.angle",
         "punctuation.separator",
         "source.cpp keyword.control.directive",
-        "storage.type.function.arrow"
+        "source.css constant.other.color punctuation.definition",
+        "source.css meta.function support.function",
+        "source.css meta.function punctuation.section.function",
+        "storage.type.function.arrow",
+        "text meta.tag punctuation.separator.namespace",
+        "text.html.markdown heading punctuation"
       ],
       "settings": {
         "foreground": "#0087af",
@@ -301,8 +313,17 @@
     {
       "name": "pcvim-aqua-bold",
       "scope": [
+        "keyword.declaration.enum storage.type",
+        "keyword.declaration.struct storage.type",
+        "keyword.operator.logical",
+        "keyword.other.class",
+        "keyword.other.enum",
         "meta.attribute",
-        "meta.declaration.annotation"
+        "meta.class meta.class.identifier storage.modifier",
+        "meta.class meta.definition.class.inherited storage.modifier.extends",
+        "meta.declaration.annotation",
+        "storage.type.class",
+        "storage.type.struct"
       ],
       "settings": {
         "foreground": "#0087af",
@@ -347,8 +368,10 @@
       "name": "pcvim-navy-normal",
       "scope": [
         "entity.name.type",
+        "entity.name.type.class",
         "entity.name.type.struct",
         "entity.name.type.trait",
+        "source.cs meta.tag entity.other.attribute-name",
         "text.html meta.attribute string.quoted",
         "text.xml entity.other.attribute-name"
       ],
@@ -360,6 +383,8 @@
     {
       "name": "pcvim-navy-bold",
       "scope": [
+        "source.css support.type.property-name",
+        "source.rust storage.type",
         "storage.modifier",
         "storage.type.modifier"
       ],
@@ -373,12 +398,36 @@
       "scope": [
         "meta.interpolation",
         "meta.template.expression",
+        "meta.import storage.modifier.import",
+        "meta.package storage.modifier.package",
         "meta.use entity.name.type",
+        "source.json punctuation.separator.dictionary.key-value",
+        "source.kotlin entity.string.template.element",
         "string.unquoted.plain.out"
       ],
       "settings": {
         "foreground": "#444444",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "pcvim-foreground-italic",
+      "scope": [
+        "text.html.markdown markup.italic"
+      ],
+      "settings": {
+        "foreground": "#444444",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "pcvim-foreground-bold",
+      "scope": [
+        "text.html.markdown markup.bold"
+      ],
+      "settings": {
+        "foreground": "#444444",
+        "fontStyle": "bold"
       }
     },
     {
@@ -390,7 +439,7 @@
         "keyword.control.trycatch",
         "keyword.control.throw",
         "keyword.control.flow.throw",
-        "keyword.control.directive.include",
+        "source.makefile entity.name.function.target",
         "support.type.exception.python"
       ],
       "settings": {
@@ -403,16 +452,29 @@
       "scope": [
         "keyword.declaration.trait",
         "keyword.other storage.type",
-        "keyword.other.rust",
-        "keyword.control.return",
+        "keyword.control.directive.include",
         "keyword.control.flow.return",
+        "keyword.control.return",
+        "keyword.other.fn",
+        "keyword.other.using",
+        "keyword.other.rust",
+        "keyword.other.kotlin",
+        "meta.import keyword",
+        "meta.package keyword",
         "meta.use keyword",
         "meta.var.expr storage.type",
         "punctuation.definition.block.sequence.item",
         "punctuation.separator.dictionary.key-value",
         "punctuation.separator.key-value.mapping",
-        "storage.type.let",
+        "source.cs meta.tag",
+        "source.css meta.selector entity.name.tag",
+        "source.css meta.selector entity.other.attribute-name",
+        "source.ini entity.name.section.group-title",
+        "source.makefile string.interpolated punctuation.definition",
+        "storage.type.function",
         "text.html entity.other.attribute-name",
+        "text.html.markdown meta string.other.link",
+        "text.html.markdown markup.quote punctuation.definition.quote",
         "text.xml meta.tag.preprocessor punctuation.definition.tag"
       ],
       "settings": {
@@ -425,10 +487,18 @@
       "scope": [
         "entity.name.type.numeric",
         "entity.name.type.primitive",
+        "keyword.other.rust storage.type",
         "keyword.other.typedef",
+        "keyword.other.var",
         "keyword.type",
         "punctuation.definition.alias",
+        "source.js meta.var.expr storage.type",
+        "storage.type.built-in.primitive",
+        "storage.type.kotlin",
+        "storage.type.let",
         "storage.type.primitive",
+        "support.class.kotlin",
+        "text.html.markdown heading entity.name.section",
         "variable.other.alias"
       ],
       "settings": {
@@ -440,7 +510,9 @@
       "name": "pcvim-purple-normal",
       "scope": [
         "text meta.tag",
-        "entity.name.type.lifetime"
+        "entity.name.type.lifetime",
+        "text.html.markdown markup.list punctuation.definition",
+        "text.html.markdown meta punctuation.definition.link"
       ],
       "settings": {
         "foreground": "#8700af",
@@ -462,7 +534,9 @@
       "scope": [
         "constant",
         "keyword.other.unit",
-        "variable.language.self"
+        "variable.language.self",
+        "source.css support.constant.property-value",
+        "text meta.tag entity.name.tag.namespace"
       ],
       "settings": {
         "foreground": "#d75f00",
@@ -479,9 +553,15 @@
         "meta.preprocessor entity.name",
         "meta.preprocessor keyword.control",
         "meta.use entity.name",
+        "source.cs meta.tag punctuation.definition",
         "string entity.name.tag",
         "string support.type.property-name",
-        "variable.language.super"
+        "text.html.markdown markup.fenced_code punctuation.definition",
+        "text.html.markdown markup.fenced_code fenced_code.block.language",
+        "text.html.markdown markup.inline.raw.string punctuation.definition",
+        "text.html.markdown meta markup.underline.link",
+        "variable.language.super",
+        "variable.other.makefile"
       ],
       "settings": {
         "foreground": "#005faf",
@@ -491,15 +571,12 @@
     {
       "name": "pcvim-blue-bold",
       "scope": [
-        "keyword.declaration.enum",
-        "keyword.other.class",
-        "keyword.other.enum",
         "keyword.other.namespace",
         "keyword.other.struct",
         "keyword.other.typedef",
-        "storage.type.class",
-        "storage.type.struct",
-        "keyword.declaration.struct storage.type"
+        "source.css constant.other.color",
+        "source.css support.constant.color",
+        "support.function.kotlin"
       ],
       "settings": {
         "foreground": "#005faf",

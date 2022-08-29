@@ -365,13 +365,6 @@ uiColors:
   widget.shadow: "#155f8766"
 
 tokenColors:
-  # - name: Italicise
-  #   italic:
-  #     - modifier
-  #     - this
-  #     - storage.modifier.js
-  #     - entity.other.attribute-name.js
-  #     - entity.other.attribute-name.htm
 
   #
   # STANDARD COLOURS
@@ -389,32 +382,23 @@ tokenColors:
       - entity.name.type.result
     bold:
       - constant.language.bool
-      - constant.language.boolean # FIXME: Doesn't work for Java :/
-  #     - constant.language.java
-  #     - constant.language.kotlin
-  #     - constant.language.groovy
-  #     - constant.other.groovy
-  #     - constant.language.null.cs
-  #     - constant.language.null.js
-  #     - constant.language.null.ts
+      - constant.language.boolean
+      - constant.language.java
+      - constant.language.kotlin
 
   - name: pcvim-olive
     color: *olive     # was 6f9700
     normal:
       - string
-  #     - punctuation.definition.string
-  #     - string.template
-  #     - punctuation.definition.string.template
-  #     - punctuation.definition.string.begin
-  #     - punctuation.definition.string.end
-  #     - meta.prompt.set.batchfile
-  #   bold:
-  #     - string.quoted.double.c constant.character.escape.c
-  #     - string.quoted.double.cpp constant.character.escape.cpp
+      - text.html.markdown markup.fenced_code.block
+      - text.html.markdown markup.inline.raw.string
+      - text.html.markdown markup.raw.block
 
   - name: pcvim-aqua
     color: *aqua
     normal:
+      - entity.string.template.element punctuation.definition
+      - entity.string.template.element punctuation.section.block
       - keyword.operator
       - keyword.control.new
       - keyword.other.new
@@ -424,29 +408,26 @@ tokenColors:
       - punctuation.brackets.angle
       - punctuation.separator
       - source.cpp keyword.control.directive
+      - source.css constant.other.color punctuation.definition
+      - source.css meta.function support.function
+      - source.css meta.function punctuation.section.function
       - storage.type.function.arrow
-  #     - keyword.operator.logical.batchfile
-  #     - variable.language.java
-  #     - keyword.other.documentation.javadoc.java
-  #     - source.asm.x86_64 constant.language.registers.general-purpose
-  #     - keyword.other.new.cs
-  #     - keyword.control.new.java
-  #     - keyword.operator.new.js
-  #     - keyword.operator.new.ts
+      - text meta.tag punctuation.separator.namespace
+      - text.html.markdown heading punctuation
     bold:
+      - keyword.declaration.enum storage.type
+      - keyword.declaration.struct storage.type
+      - keyword.operator.logical
+      - keyword.other.class
+      - keyword.other.enum
       - meta.attribute
+      - meta.class meta.class.identifier storage.modifier
+      - meta.class meta.definition.class.inherited storage.modifier.extends
       - meta.declaration.annotation
-  #     - entity.name.type.class.python
-  #     - entity.name.function.python
-  #     - support.function.magic.python
-  #     - meta.scope.case-clause.shell meta.scope.case-pattern.shell
-  #     - meta.class.identifier.java storage.modifier.java
-  #     - meta.definition.class.inherited.classes.java storage.modifier.extends.java
-  #     - meta.class.kotlin storage.modifier.kotlin
-  #     - meta.class.kotlin meta.block.kotlin storage.type.kotlin
+      - storage.type.class
+      - storage.type.struct
     italic:
       - meta.macro entity.name
-  #     - keyword.operator.sizeof.c
 
   - name: pcvim-comment
     color: *comment
@@ -456,143 +437,40 @@ tokenColors:
       - text.html meta.tag.metadata.doctype entity.other.attribute-name
       - text meta.tag punctuation.definition.tag
       - text meta.tag punctuation.separator
-  #     - keyword.command.rem.batchfile
     italic:
       - comment
-  #     - punctuation.definition.comment
 
   - name: pcvim-navy
     color: *navy
     normal:
       - entity.name.type
+      - entity.name.type.class
       - entity.name.type.struct
       - entity.name.type.trait
+      - source.cs meta.tag entity.other.attribute-name
       - text.html meta.attribute string.quoted
       - text.xml entity.other.attribute-name
-      # - text.xml meta.tag string.quoted
-  #     - storage.type.function.arrow
-  #     - support
-  #     - markup.underline.link.markdown
-  #     - markup.underline.link.image.markdown
-  #     - meta.function-call.generic.python
-  #     - variable.parameter.batchfile
-  #     - punctuation.definition.variable.batchfile
-  #     - punctuation.definition.variable.shell
-  #     - meta.tag.cs entity.other.attribute-name.cs entity.other.attribute-name.localname.cs
     bold:
+      - source.css support.type.property-name
+      - source.rust storage.type
       - storage.modifier
       - storage.type.modifier
-  #     - storage
-  #     - entity.name.tag
-  #     - source.css support
-  #     - source.stylus support
-  #     - source.ts keyword
-  #     - support.function.builtin.python
-  #     - variable.other.readwrite.batchfile
-  #     - string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.begin.batchfile
-  #     - string.quoted.double.batchfile variable.other.readwrite.batchfile punctuation.definition.variable.end.batchfile
-  #     - punctuation.definition.variable.begin.batchfile
-  #     - punctuation.definition.variable.end.batchfile
-  #     - variable.other.special.shell
-  #     - entity.name.package.kotlin
-  #     - meta.class.kotlin meta.block.kotlin storage.modifier.kotlin
-  #     - storage.modifier.cs
-  #     - support.type.asm
-  #     - storage.type.function.js
 
   - name: pcvim-foreground
     color: *foreground
     normal:
       - meta.interpolation
       - meta.template.expression
+      - meta.import storage.modifier.import
+      - meta.package storage.modifier.package
       - meta.use entity.name.type
+      - source.json punctuation.separator.dictionary.key-value 
+      - source.kotlin entity.string.template.element
       - string.unquoted.plain.out
-  #     - entity
-  #     - meta.brace
-  #     - punctuation
-  #     - punctuation.definition.parameters
-  #     - punctuation.definition.template-expression
-  #     - variable
-  #     - source.css variable
-  #     - source.stylus variable
-  #     - source.ini punctuation.definition
-  #     - source.ini punctuation.separator
-  #     - punctuation.definition.heading.markdown
-  #     - meta.paragraph.markdown
-  #     - source.ts entity.name.type
-  #     - meta.function-call.arguments.python
-  #     - meta.item-access.python
-  #     - meta.group.batchfile
-  #     - constant.character.escape.batchfile
-  #     - meta.scope.if-block.shell
-  #     - meta.scope.case-clause-body.shell
-  #     - meta.scope.case-clause.shell meta.scope.case-pattern.shell punctuation.definition.case-pattern.shell
-  #     - meta.import.java storage.modifier.import.java
-  #     - meta.class.body.java meta.definition.variable.java variable.other.definition.java
-  #     - meta.method.body.java
-  #     - meta.try.body.java
-  #     - meta.function-call.java
-  #     - meta.definition.variable.java storage.type.java
-  #     - constant.other.key.java
-  #     - meta.import.kotlin storage.modifier.import.java
-  #     - meta.block.kotlin
-  #     - meta.class.kotlin
-  #     - constant.other.key.kotlin
-  #     - meta.import.groovy storage.modifier.import.groovy
-  #     - meta.definition.method.groovy
-  #     - keyword.operator.navigation.groovy
-  #     - meta.method-call.groovy
-  #     - meta.method-call.groovy meta.method.groovy
-  #     - meta.evaluation.ternary.groovy
-  #     - storage.type.cs
-  #     - entity.name.variable.property.cs
-  #     - meta.block.c
-  #     - meta.class-struct-block.cpp
-  #     - meta.extern-block.cpp
-  #     - meta.function.c
-  #     - meta.function-call.c
-  #     - meta.namespace-block.cpp
-  #   bold:
-  #     - markup.bold.markdown
-  #     - keyword.operator.arithmetic.python
-  #     - keyword.operator.assignment
-  #     - keyword.operator.comparison.python
-  #     - keyword.operator.python
-  #     - keyword.other.special-method.batchfile
-  #     - keyword.operator.conditional.batchfile
-  #     - keyword.operator.comparison.batchfile
-  #     - keyword.operator.logical.shell
-  #     - keyword.operator.comparison.java
-  #     - keyword.operator.declaration.kotlin
-  #     - keyword.operator.assignment.kotlin
-  #     - keyword.operator.comparison.kotlin
-  #     - source.groovy.embedded.source
-  #     - keyword.operator.assignment.groovy
-  #     - keyword.operator.comparison.groovy
-  #     - keyword.operator.logical.groovy
-  #     - keyword.operator.ternary.groovy
-  #     - keyword.operator.arithmetic.groovy
-  #     - keyword.operator.ternary.expression-seperator.groovy
-  #     - keyword.operator.comparison.cs
-  #     - keyword.operator.c
-  #     - keyword.operator.bitwise.shift.c
-  #     - keyword.operator.comparison.c
-  #     - keyword.operator.logical.c
-  #     - keyword.operator.increment.c
-  #     - keyword.operator.decrement.c
-  #     - keyword.operator.comparison.js
-  #     - keyword.operator.relational.js
-  #     - keyword.operator.assignment.ts
-  #     - keyword.operator.comparison.ts
-  #     - keyword.operator.relational.ts
-  #   italic:
-  #     - markup.quote.markdown meta.paragraph.markdown
-  #     - markup.italic.markdown
-  #     - variable.parameter.function.language.python
-  #   bold italic:
-  #     - keyword.command.batchfile
-  #     - support.function.builtin.shell
-  #     - support.function.C99.c
+    italic:
+      - text.html.markdown markup.italic
+    bold:
+      - text.html.markdown markup.bold
 
   # # - name: pcvim-nontext
   # #   color: *nontext
@@ -609,126 +487,66 @@ tokenColors:
       - keyword.control.trycatch
       - keyword.control.throw
       - keyword.control.flow.throw
-      - keyword.control.directive.include
+      - source.makefile entity.name.function.target
 
-      - support.type.exception.python # Higlights the type, not try/except/else
-  #   italic:
-  #     - keyword.control.import.python
+      # Higlights the type, not try/except/else
+      - support.type.exception.python
   
   - name: pcvim-pink
     color: *pink
     normal:
       - keyword.declaration.trait
       - keyword.other storage.type
-      - keyword.other.rust
-      - keyword.control.return
+      - keyword.control.directive.include
       - keyword.control.flow.return
+      - keyword.control.return
+      - keyword.other.fn
+      - keyword.other.using
+      - keyword.other.rust
+      - keyword.other.kotlin
+      - meta.import keyword
+      - meta.package keyword
       - meta.use keyword
       - meta.var.expr storage.type
       - punctuation.definition.block.sequence.item
       - punctuation.separator.dictionary.key-value
       - punctuation.separator.key-value.mapping
-      - storage.type.let
+      - source.cs meta.tag
+      - source.css meta.selector entity.name.tag
+      - source.css meta.selector entity.other.attribute-name
+      - source.ini entity.name.section.group-title
+      - source.makefile string.interpolated punctuation.definition
+      - storage.type.function
       - text.html entity.other.attribute-name
+      - text.html.markdown meta string.other.link
+      - text.html.markdown markup.quote punctuation.definition.quote
       - text.xml meta.tag.preprocessor punctuation.definition.tag
-  #     - source.css entity
-  #     - source.stylus entity
-  #     - entity.other.attribute-name.id.css
-  #     - source.ini entity
-  #     - storage.modifier.declaration.python
-  #     - storage.type.class.python
-  #     - storage.type.function.python
-  #     - variable.parameter.function.language.special.self.python
-  #     - storage.modifier.shell
-  #     - meta.import.java keyword.other.package.java
-  #     - meta.import.java keyword.other.import.java
-  #     - meta.import.java storage.modifier.java
-  #     - meta.import.kotlin keyword.other.package.kotlin
-  #     - meta.import.kotlin keyword.other.import.kotlin
-  #     - meta.import.kotlin storage.modifier.kotlin
-  #     - meta.import.groovy keyword.other.import.groovy
-  #     - meta.import.groovy keyword.other.import.static.groovy
-  #     - entity.name.tag.cs entity.name.tag.localname.cs
-  #     - string.quoted.double.c constant.other.placeholder.c
-  #     - string.quoted.double.cpp constant.other.placeholder.c
-  #     - source.asm.x86_64 entity.name.function
-  #     - comment.block.documentation.ts storage.type.class.jsdoc
     bold:
       - entity.name.type.numeric
       - entity.name.type.primitive
+      - keyword.other.rust storage.type
       - keyword.other.typedef
+      - keyword.other.var
       - keyword.type
       - punctuation.definition.alias
+      - source.js meta.var.expr storage.type
+      - storage.type.built-in.primitive
+      - storage.type.kotlin
+      - storage.type.let
       - storage.type.primitive
+      - support.class.kotlin
+      - text.html.markdown heading entity.name.section
       - variable.other.alias
-  #     - storage.type.function
-  #     - keyword
-  #     - storage.type.class
-  #     - entity.name.section.markdown
-  #     - markup.heading.setext.1.markdown
-  #     - markup.heading.setext.2.markdown
-  #     - variable.language.special.self.python
-  #     - keyword.control.statement.batchfile
-  #     - variable.other.normal.shell
-  #     - variable.other.bracket.shell
-  #     - storage.type.primitive.java
-  #     - keyword.control.try.java
-  #     - keyword.control.catch.java
-  #     - keyword.control.finally.java
-  #     - meta.class.kotlin meta.block.kotlin entity.name.function.constructor
-  #     - storage.type.primitive.groovy
-  #     - storage.type.def.groovy
-  #     - keyword.control.flow.return.cs
-  #     - keyword.control.flow.throw.cs
-  #     - storage.type.c
-  #     - storage.modifier.cpp
-  #     - support.type.posix-reserved.c
-  #     - storage.type.js
-  #     - storage.type.class.js
-  #     - support.type.primitive.ts
-  #     - keyword.control.import.ts
-  #     - keyword.control.flow.ts
-  #     - variable.other.dockerfile
-  #     - meta.argument.shell
 
   - name: pcvim-purple
     color: *purple
     normal:
       - text meta.tag
       - entity.name.type.lifetime
-  #     - punctuation.definition.keyword.kotlin
-  #     - punctuation.section.block.begin.kotlin
-  #     - punctuation.section.block.end.kotlin
-  #     - keyword.control.groovy
-  #     - punctuation.section.embedded.groovy
-  #     - punctuation.definition.interpolation.begin.cs
-  #     - punctuation.definition.interpolation.end.cs
-  #     - entity.name.function.preprocessor.c
-  #     - source.asm.x86_64 constant.numeric.hex
-  #     - punctuation.definition.template-expression.begin.ts
-  #     - punctuation.definition.template-expression.end.ts
+      - text.html.markdown markup.list punctuation.definition
+      - text.html.markdown meta punctuation.definition.link
     bold:
       - keyword.control
-  #     - keyword.control.flow.python
-  #     - keyword.operator.logical.python
-  #     - keyword.control.conditional.batchfile
-  #     - keyword.control.repeat.batchfile
-  #     - keyword.control.shell
-  #     - keyword.control.java
-  #     - keyword.control.throw.java
-  #     - keyword.control.conditional.kotlin
-  #     - keyword.control.catch-exception.kotlin
-  #     - keyword.control.conditional.if.cs
-  #     - keyword.control.conditional.else.cs
-  #     - keyword.control.try.cs
-  #     - keyword.control.try.catch.cs
-  #     - keyword.control.try.finally.cs
-  #     - keyword.control.c
-  #     - keyword.control.conditional.js
-  #     - keyword.control.conditional.ts
-  #     - keyword.control.trycatch.ts
-  #     - punctuation.section.bracket.curly.variable.begin.shell
-  #     - punctuation.section.bracket.curly.variable.end.shell
 
   - name: pcvim-orange
     color: *orange
@@ -736,11 +554,8 @@ tokenColors:
       - constant
       - keyword.other.unit
       - variable.language.self
-  #     - punctuation.definition.annotation.java
-  #     - storage.type.annotation.java
-  #     - storage.type.annotation.kotlin
-  #     - meta.declaration.annotation.kotlin
-  #     - meta.tag.cs punctuation.separator.equals.cs
+      - source.css support.constant.property-value
+      - text meta.tag entity.name.tag.namespace
 
   - name: pcvim-blue
     color: *blue
@@ -753,38 +568,22 @@ tokenColors:
       - meta.preprocessor entity.name
       - meta.preprocessor keyword.control
       - meta.use entity.name
+      - source.cs meta.tag punctuation.definition
       - string entity.name.tag
       - string support.type.property-name
+      - text.html.markdown markup.fenced_code punctuation.definition
+      - text.html.markdown markup.fenced_code fenced_code.block.language
+      - text.html.markdown markup.inline.raw.string punctuation.definition
+      - text.html.markdown meta markup.underline.link
       - variable.language.super
-  #     - keyword.other.special-method.batchfile
-  #     - punctuation.definition.method-parameters.begin.groovy
-  #     - punctuation.definition.method-parameters.end.groovy
-  #     - meta.definition.method.signature.java
-  #     - meta.tag.cs punctuation.definition.tag.cs
-  #     - keyword.operator.cast.cpp
-  #     - variable.language.this.cpp
-  #     - entity.other.attribute-name.pragma.preprocessor.c
-  #     - keyword.control.directive.pragma.c
-  #     - keyword.control.directive.pragma.c punctuation.definition.directive.c
-  #     - source.asm.x86_64 keyword.mnemonic.general-purpose.binary-arithmetic
-  #     - source.asm.x86_64 keyword.mnemonic.general-purpose.control-transfer.jmp
-  #     - source.asm.x86_64 keyword.mnemonic.general-purpose.data-transfer.mov
-  #     - source.asm.x86_64 meta.preprocessor.c keyword.control.import.c
+      - variable.other.makefile
     bold:
-      - keyword.declaration.enum
-      - keyword.other.class
-      - keyword.other.enum
       - keyword.other.namespace
       - keyword.other.struct
       - keyword.other.typedef
-      - storage.type.class
-      - storage.type.struct
-      - keyword.declaration.struct storage.type
-  #     - storage.modifier.java
-  #     - keyword.control.directive.define.c
-  #     - keyword.control.directive.conditional.c
-  #     - meta.namespace-block.cpp storage.type.cpp
-  #     - storage.modifier.async.ts
+      - source.css constant.other.color
+      - source.css support.constant.color
+      - support.function.kotlin
 
   # #
   # # NON-STANDARD COLOURS
