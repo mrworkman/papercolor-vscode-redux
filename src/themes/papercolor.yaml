@@ -387,6 +387,7 @@ tokenColors:
       - constant.language.json
       - constant.language.kotlin
       - constant.language.php
+      - constant.language.python
 
   - name: pcvim-olive
     color: *olive     # was 6f9700
@@ -417,9 +418,9 @@ tokenColors:
       - source.shell punctuation.section.bracket.curly
       - source.shell variable.other.normal
       - source.shell variable.parameter.positional
+      - source.sass entity.name.function
       - storage.type.function.arrow
       - support.function.mnemonic
-      - text meta.tag punctuation.separator.namespace
       - text.html.markdown heading punctuation
       - text.html.php meta.embedded.block punctuation.section.embedded
     bold:
@@ -437,6 +438,7 @@ tokenColors:
       - meta.decorator punctuation.decorator
       - meta.function.decorator entity.name.function.decorator
       - meta.function.decorator punctuation.definition
+      - meta.function.decorator support.type
       - source.js storage.modifier
       - storage.type.class
       - storage.type.struct
@@ -450,8 +452,7 @@ tokenColors:
       - string.json punctuation.support.type.property-name
       - text.html meta.tag.metadata.doctype
       - text.html meta.tag.metadata.doctype entity.other.attribute-name
-      - text meta.tag punctuation.definition.tag
-      - text meta.tag punctuation.separator
+      - meta.tag punctuation.separator
     italic:
       - comment
 
@@ -466,12 +467,18 @@ tokenColors:
       - source.cs meta.tag entity.other.attribute-name
       - source.js meta.tag.attributes string.quoted
       - source.shell variable.other.assignment
+      - source.vue meta.attribute
+      - source.vue meta.attribute string.quoted punctuation.definition
       - storage.register
-      - text.html meta.attribute string.quoted
+      - text meta.tag meta.attribute.style punctuation.definition
+      - text.html entity.other.attribute-name
+      - text.html meta.attribute string.quoted punctuation.definition
       - text.xml entity.other.attribute-name
+      - text.xml meta.tag string.quoted punctuation.definition
     bold:
       - source.css support.type.property-name
       - source.rust storage.type
+      - source.sass support.type.property-name
       - storage.modifier
       - storage.type.modifier
 
@@ -540,17 +547,20 @@ tokenColors:
       - source.ini entity.name.section.group-title
       - source.js entity.other.attribute-name
       - source.makefile string.interpolated punctuation.definition
-      - source.python variable.parameter.function-call
+      - source.sass entity.other.attribute-name
       - source.shell entity.name.command
+      - source.vue entity.name.tag
       - storage.type.function
-      - text.html entity.other.attribute-name
+      - text meta.tag
       - text.html.markdown meta string.other.link
       - text.html.markdown markup.quote punctuation.definition.quote
       - text.html.php variable punctuation.definition
       - text.xml meta.tag.preprocessor punctuation.definition.tag
     bold:
+      - entity.name.type.anchor
       - entity.name.type.numeric
       - entity.name.type.primitive
+      - keyword.control.property.anchor punctuation.definition.anchor
       - keyword.other.rust storage.type
       - keyword.other.typedef
       - keyword.other.var
@@ -575,7 +585,6 @@ tokenColors:
       - source.shell string.interpolated punctuation.definition
       - text.html.markdown markup.list punctuation.definition
       - text.html.markdown meta punctuation.definition.link
-      - text meta.tag
     bold:
       - keyword.control
 
@@ -583,9 +592,12 @@ tokenColors:
     color: *orange
     normal:
       - constant
+      - keyword.control.unit
       - keyword.other.unit
       - variable.language.self
       - source.css support.constant.property-value
+      - source.python variable.parameter.function-call
+      - source.sass support.constant.property-value
       - text meta.tag entity.name.tag.namespace
 
   - name: pcvim-blue
@@ -601,14 +613,18 @@ tokenColors:
       - meta.use entity.name
       - source.cs meta.tag punctuation.definition
       - source.ts meta.object-literal.key
+      # - source.ts meta.object.member variable.other
+      - source.vue punctuation.definition.tag
       - string entity.name.tag
       - string support.type.property-name
+      - text meta.tag punctuation.definition.tag
       - text.html.markdown markup.fenced_code punctuation.definition
       - text.html.markdown markup.fenced_code fenced_code.block.language
       - text.html.markdown markup.inline.raw.string punctuation.definition
       - text.html.markdown meta markup.underline.link
       - text.html.php support.function
       - variable.language.super
+      - variable.other.constant
       - variable.other.makefile
     bold:
       - keyword.other.namespace
@@ -617,6 +633,7 @@ tokenColors:
       - source.css constant.other.color
       - source.css support.constant.color
       - source.shell support.function.builtin
+      - source.vue constant.language.color
       - support.function.kotlin
 
   # #
