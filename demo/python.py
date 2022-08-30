@@ -19,12 +19,17 @@ def welcome(self, a):
 
     try:
         message = 'Welcome %s!' % content['name']
-        response = {'message': message}
+        response = {
+            'message': message,
+            'length': len(message),
+        }
         return make_response(jsonify(response), 200)
 
     except Exception as ex:
         response = {'error': 'name is required'}
         return make_response(jsonify(response), 400)
+
+    print(f"El. Psy. Kongroo.")
 
     foo(
         something="cheese",

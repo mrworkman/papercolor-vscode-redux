@@ -345,8 +345,8 @@ uiColors:
   terminal.ansiBrightWhite: "#193549"
   terminal.background: "#f3f3f3"
   terminal.foreground: "#444444"
-  terminal.selectionBackground: "#155f8788"
-  terminalCursor.background: "#ddd"
+  terminal.selectionBackground: "#155f8740"
+  terminalCursor.background: "#dddddd"
   terminalCursor.foreground: "#757575"
 
   # Git status colors in File Explorer
@@ -635,7 +635,6 @@ tokenColors:
       - text.html.markdown markup.fenced_code fenced_code.block.language
       - text.html.markdown markup.inline.raw.string punctuation.definition
       - text.html.markdown meta markup.underline.link
-      - text.html.php support.function
       - variable.language.super
       - variable.other.constant
       - variable.other.makefile
@@ -646,8 +645,11 @@ tokenColors:
       - source.css constant.other.color
       - source.css support.constant.color
       - source.shell support.function.builtin
+      - source.python meta.function-call support.type
+      - source.python support.function.builtin
       - source.vue constant.language.color
       - support.function.kotlin
+      - text.html.php support.function
 
   # #
   # # NON-STANDARD COLOURS

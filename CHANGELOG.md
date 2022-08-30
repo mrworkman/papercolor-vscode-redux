@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [0.999.2] - 2022-XX-XX
+- Highlight Python builtin and support functions like `print()` and `len()`.
+- 
+
 ## [0.999.1] - 2022-08-30
 - v1.0.0 pre-release 1.
 - Colour fixes for Python, TS, & Vue.
