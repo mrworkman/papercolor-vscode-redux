@@ -58,9 +58,13 @@ uiColors:
   descriptionForeground: "#aaa"
 
   # diff
-  diffEditor.insertedTextBackground: "#78c2a334"
-  diffEditor.removedTextBackground: "#F5005720"
-  diffEditor.diagonalFill: "#B0BEC5"
+  diffEditor.insertedLineBackground: "#00870020"
+  diffEditor.insertedTextBackground: "#00870030"
+  diffEditor.removedLineBackground: "#D7000020"
+  diffEditor.removedTextBackground: "#D7000030"
+  diffEditor.diagonalFill: *comment
+  diffEditorGutter.insertedLineBackground: *green
+  diffEditorGutter.removedLineBackground: *red
 
   # dropdown
   dropdown.background: "#ffffff"
@@ -224,6 +228,15 @@ uiColors:
   merge.currentHeaderBackground: "#398d3d"
   merge.incomingContentBackground: "#0091EA36"
   merge.incomingHeaderBackground: "#0091EA"
+
+  mergeEditor.change.background: "#4FC3F720"
+  mergeEditor.change.word.background: "#4FC3F740"
+  mergeEditor.conflict.handled.minimapOverViewRuler: "#008700"
+  mergeEditor.conflict.handledFocused.border: "#00870040"
+  mergeEditor.conflict.handledUnfocused.border: "#00870020"
+  mergeEditor.conflict.unhandled.minimapOverViewRuler: "#4FC3F7"
+  mergeEditor.conflict.unhandledFocused.border: "#4FC3F7"
+  mergeEditor.conflict.unhandledUnfocused.border: "#4FC3F720"
 
   # Minimap
   minimap.background: "#eeeeee"

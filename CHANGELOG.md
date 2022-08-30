@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [0.999.1] - 2022-08-30
+- v1.0.0 pre-release 1.
+- Colour fixes for Python, TS, & Vue.
+- Different colour scheme for HTML & XML.
+- Updates to diff and merge colours.
+
 ## [0.999.0] - 2022-08-29
 - v1.0.0 pre-release 0.
 - Refactor, using yaml source file.
