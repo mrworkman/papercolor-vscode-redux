@@ -459,8 +459,6 @@ tokenColors:
       - storage.type.class
       - storage.type.struct
       - support.function.magic
-    italic:
-      - meta.macro entity.name
 
   - name: pcvim-comment
     color: *comment
@@ -515,6 +513,7 @@ tokenColors:
     italic:
       - text.html.markdown markup.italic
     bold:
+      - meta.macro entity.name
       - source.dockerfile entity.name.image
       - text.html.markdown markup.bold
 

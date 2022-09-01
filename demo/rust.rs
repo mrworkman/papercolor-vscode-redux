@@ -33,7 +33,7 @@ fn main() {
     let mut foo: u16 = 990;
     let bar = "Some string"::to_string();
 
-    println!("Hello, jello! {foo}");
+    println!("Hello, jello! {foo}", foo=42);
 
     if c == 1 {
         if x == true {

@@ -3,6 +3,7 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 
 ## [0.999.2] - 2022-XX-XX
 - Highlight Python builtin and support functions like `print()` and `len()`.
+- Change rust macro style & colour.
 - Tweak Dockerfile colouring (via [Better DockerFile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax))
 - Tweak TOML colouring (via [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml))
 -
