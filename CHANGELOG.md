@@ -3,7 +3,9 @@ All notable changes to the "papercolor-redux" extension will be documented in th
 
 ## [0.999.2] - 2022-XX-XX
 - Highlight Python builtin and support functions like `print()` and `len()`.
-- 
+- Tweak Dockerfile colouring (via [Better DockerFile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax))
+- Tweak TOML colouring (via [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml))
+-
 
 ## [0.999.1] - 2022-08-30
 - v1.0.0 pre-release 1.

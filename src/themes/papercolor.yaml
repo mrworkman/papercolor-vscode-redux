@@ -401,6 +401,7 @@ tokenColors:
       - constant.language.kotlin
       - constant.language.php
       - constant.language.python
+      - constant.other.boolean
 
   - name: pcvim-olive
     color: *olive     # was 6f9700
@@ -428,6 +429,8 @@ tokenColors:
       - source.css constant.other.color punctuation.definition
       - source.css meta.function support.function
       - source.css meta.function punctuation.section.function
+      - source.dockerfile punctuation.separator constant.numeric.version
+      - source.dockerfile variable.other.dockerfile
       - source.shell punctuation.section.bracket.curly
       - source.shell variable.other.normal
       - source.shell variable.parameter.positional
@@ -478,6 +481,7 @@ tokenColors:
       - entity.name.type.struct
       - entity.name.type.trait
       - source.cs meta.tag entity.other.attribute-name
+      - source.dockerfile variable.other.assignment
       - source.js meta.tag.attributes string.quoted
       - source.shell variable.other.assignment
       - source.vue meta.attribute
@@ -505,11 +509,13 @@ tokenColors:
       - meta.use entity.name.type
       - source.json punctuation.separator.dictionary.key-value
       - source.kotlin entity.string.template.element
+      - source.toml meta.tag punctuation.definition.table.array
       - source.ts punctuation.separator.key-value
       - string.unquoted.plain.out
     italic:
       - text.html.markdown markup.italic
     bold:
+      - source.dockerfile entity.name.image
       - text.html.markdown markup.bold
 
   # # - name: pcvim-nontext
@@ -556,12 +562,15 @@ tokenColors:
       - source.arm variable.named
       - source.cs meta.tag
       - source.css meta.selector entity.name.tag
+      - source.dockerfile meta.command constant.character.escape.line-continuation
       - source.css meta.selector entity.other.attribute-name
       - source.ini entity.name.section.group-title
       - source.js entity.other.attribute-name
       - source.makefile string.interpolated punctuation.definition
       - source.sass entity.other.attribute-name
       - source.shell entity.name.command
+      - source.toml entity.other.attribute-name.table
+      - source.toml meta.tag punctuation.definition.table
       - source.vue entity.name.tag
       - storage.type.function
       - text meta.tag
@@ -579,6 +588,7 @@ tokenColors:
       - keyword.other.var
       - keyword.type
       - punctuation.definition.alias
+      - source.dockerfile constant.numeric.version
       - source.js meta.var.expr storage.type
       - storage.type.built-in.primitive
       - storage.type.kotlin
