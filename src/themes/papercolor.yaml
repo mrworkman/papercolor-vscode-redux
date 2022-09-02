@@ -431,6 +431,7 @@ tokenColors:
       - source.css meta.function punctuation.section.function
       - source.dockerfile punctuation.separator constant.numeric.version
       - source.dockerfile variable.other.dockerfile
+      - source.python meta.fstring constant.character.format.placeholder
       - source.shell punctuation.section.bracket.curly
       - source.shell variable.other.normal
       - source.shell variable.parameter.positional
