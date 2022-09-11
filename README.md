@@ -9,7 +9,7 @@ Note that there are of course differences between this theme and the one for
 vim, mostly due to which textmate scopes have been defined for each language
 (some things aren't easily doable).
 
-![screenshot.png](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/screenshot.png)
+![screenshot.png](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/screenshot-1-0-0.png)
 
 The font shown in the screenshot is [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) ([Info](https://mozilla.github.io/Fira/), [GitHub](https://github.com/mozilla/Fira)).
 
@@ -37,8 +37,10 @@ languages.
 - PHP
 - Python
 - Rust
+- tmux configuration files
 - TOML
 - TypeScript
+- Vim Script (requires VimL extension, see below)
 - YAML
 
 I will add more as time allows, but pull-requests are welcome.
@@ -46,15 +48,21 @@ I will add more as time allows, but pull-requests are welcome.
 ## Recommended Extensions
 
 I recommend having the following extensions installed to provide better support
-various languages.
+various languages. In some cases no highlighting is possible without the
+installation of an extension.
 
-- Arm Assembly
-- Better Shell Syntax
-- Better TOML
-- Kotlin
-- Kotlin Language
-- rust-analyzer
-- x8664assembly
+- [Arm Assembly](https://marketplace.visualstudio.com/items?itemName=dan-c-underwood.arm)
+- [Better Dockerfile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax)
+- [Better JavaScript Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-js-syntax)
+- [Better Shell Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-shellscript-syntax)
+- [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [Kotlin](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
+- [Kotlin Language](https://marketplace.visualstudio.com/items?itemName=mathiasfrohlich.Kotlin)
+- [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [tmux](https://marketplace.visualstudio.com/items?itemName=malmaud.tmux)
+- [VimL](https://marketplace.visualstudio.com/items?itemName=XadillaX.viml)
+- [x8664assembly](https://marketplace.visualstudio.com/items?itemName=fredhappyface.x8664assembly)
 
 ## Links
 * [GitHub](https://github.com/mrworkman/papercolor-vscode-redux)
