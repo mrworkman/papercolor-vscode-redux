@@ -19,6 +19,8 @@ function wes() {
       throw new Exception();
    }
 
+   var x = html` <body blah="dddd">`;
+
    return 42;
 }
 

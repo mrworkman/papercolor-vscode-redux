@@ -1,7 +1,14 @@
 # Change Log
 All notable changes to the "papercolor-redux" extension will be documented in this file.
 
+## [1.0.0] - 2022-09-11
+- Add better colouring for Vim Script (requires 
+[VimL](https://marketplace.visualstudio.com/items?itemName=XadillaX.viml)).
+- Add support for JavaScript tagged template literals (requires 
+[Better JavaScript Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-js-syntax)).
+
 ## [0.999.2] - 2022-09-02
+- v1.0.0 pre-release 2.
 - Change rust macro style & colour.
 - Highlight Python builtin and support functions like `print()` and `len()` and other tweaks.
 - Tweak Dockerfile colouring (via [Better DockerFile Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-dockerfile-syntax))

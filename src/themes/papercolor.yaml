@@ -436,6 +436,10 @@ tokenColors:
       - source.shell variable.other.normal
       - source.shell variable.parameter.positional
       - source.sass entity.name.function
+      - source.viml entity.tag.name
+      - source.viml constant.character.escape
+      - source.viml punctuation.expression.bracket.curly
+      - source.viml punctuation.expression.bracket.round
       - storage.type.function.arrow
       - support.function.mnemonic
       - text.html.markdown heading punctuation
@@ -468,6 +472,8 @@ tokenColors:
       - text.html meta.tag.metadata.doctype
       - text.html meta.tag.metadata.doctype entity.other.attribute-name
       - meta.tag punctuation.separator
+    bold:
+      - comment.line.quotes support.constant.field
     italic:
       - comment
 
@@ -483,6 +489,9 @@ tokenColors:
       - source.dockerfile variable.other.assignment
       - source.js meta.tag.attributes string.quoted
       - source.shell variable.other.assignment
+      - source.viml support.variable
+      - source.viml variable.other
+      - source.viml variable.other storage.modifier
       - source.vue meta.attribute
       - source.vue meta.attribute string.quoted punctuation.definition
       - storage.register
@@ -510,6 +519,8 @@ tokenColors:
       - source.kotlin entity.string.template.element
       - source.toml meta.tag punctuation.definition.table.array
       - source.ts punctuation.separator.key-value
+      - source.viml entity.name.function storage.modifier.scope
+      - source.viml punctuation.separator.comma
       - string.unquoted.plain.out
     italic:
       - text.html.markdown markup.italic
@@ -534,6 +545,7 @@ tokenColors:
       - keyword.control.throw
       - keyword.control.flow.throw
       - source.makefile entity.name.function.target
+      # - source.viml storage.type.let
 
       # Higlights the type, not try/except/else
       - support.type.exception.python
@@ -571,6 +583,8 @@ tokenColors:
       - source.shell entity.name.command
       - source.toml entity.other.attribute-name.table
       - source.toml meta.tag punctuation.definition.table
+      - source.viml storage.function
+      - source.viml support.function
       - source.vue entity.name.tag
       - storage.type.function
       - text meta.tag
@@ -637,6 +651,8 @@ tokenColors:
       - source.cs meta.tag punctuation.definition
       - source.ts meta.object-literal.key
       # - source.ts meta.object.member variable.other
+      - source.viml meta.parameter entity.name.parameter
+      - source.viml support.variable.environment
       - source.vue punctuation.definition.tag
       - string entity.name.tag
       - string support.type.property-name
@@ -657,6 +673,7 @@ tokenColors:
       - source.shell support.function.builtin
       - source.python meta.function-call support.type
       - source.python support.function.builtin
+      - source.viml entity.name.function
       - source.vue constant.language.color
       - support.function.kotlin
       - text.html.php support.function
