@@ -1,5 +1,8 @@
+<center>
+
 ![heading](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/heading.png)
 
+</center>
 
 A _light_ colour theme for [vscode](https://code.visualstudio.com/), based on
 the fabulous [PaperColor theme](https://github.com/NLKNguyen/papercolor-theme)
@@ -9,7 +12,12 @@ Note that there are of course differences between this theme and the one for
 vim, mostly due to which textmate scopes have been defined for each language
 (some things aren't easily doable).
 
-![screenshot.png](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/screenshot-1-0-0.png)
+<center>
+
+![screenshot-v1](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/screenshot-1-0-0.png)
+![screenshot](https://github.com/mrworkman/papercolor-vscode-redux/raw/main/images/screenshot.png)
+
+</center>
 
 The font shown in the screenshot is [Fira Mono](https://fonts.google.com/specimen/Fira+Mono) ([Info](https://mozilla.github.io/Fira/), [GitHub](https://github.com/mozilla/Fira)).
 
@@ -40,7 +48,7 @@ languages.
 - tmux configuration files
 - TOML
 - TypeScript
-- Vim Script (requires VimL extension, see below)
+- Vim Script
 - YAML
 
 I will add more as time allows, but pull-requests are welcome.
