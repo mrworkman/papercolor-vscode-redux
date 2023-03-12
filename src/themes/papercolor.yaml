@@ -132,8 +132,8 @@ uiColors:
   editorGroupHeader.tabsBorder: "#B0BEC5"
 
   # editorHoverWidget
-  editorHoverWidget.background: "#eeeeee"
-  editorHoverWidget.border: "#546E7A"
+  editorHoverWidget.background: "#ffffff"
+  editorHoverWidget.border: *navy
 
   # Vertical indentation guides (lines)
   editorIndentGuide.background: "#155f8766"
@@ -247,8 +247,11 @@ uiColors:
   notificationCenterHeader.background: "#eeeeee"
   notificationToast.border: "#0d3a58"
   notifications.foreground: "#444444"
-  notifications.background: "#eeeeee"
-  notifications.border: "#0d3a58"
+  notifications.background: "#ffffff"
+  notifications.border: *navy
+  notificationsErrorIcon.foreground: *red
+  notificationsInfoIcon.foreground: *blue
+  notificationsWarningIcon.foreground: *accent
   notificationLink.foreground: "#444444"
 
   # panel (e.g. terminal "header")
@@ -315,6 +318,11 @@ uiColors:
   statusBarItem.hoverBackground: "#0277BD"
   statusBarItem.prominentBackground: "#039BE5"
   statusBarItem.prominentHoverBackground: "#0277BD"
+
+  statusBarItem.errorBackground: "#ff0000"
+  statusBarItem.errorForeground: "#ffffff"
+  statusBarItem.warningBackground: "#f9f97a"
+  statusBarItem.warningForeground: "#000000"
 
   # tabs.
   tab.activeBackground: "#eeeeee"
@@ -387,7 +395,7 @@ tokenColors:
     color: *negative
     normal:
       - invalid
-  
+
   - name: pcvim-green
     color: *green
     normal:
@@ -549,7 +557,7 @@ tokenColors:
 
       # Higlights the type, not try/except/else
       - support.type.exception.python
-  
+
   - name: pcvim-pink
     color: *pink
     normal:
@@ -692,7 +700,7 @@ tokenColors:
   #     - markup.inline.raw.markdown
   #     - fenced_code.block.language
   #     - markup.inline.raw.markdown
-  
+
   # - name: alt-orange
   #   color: "#d86307"
   #   normal:
@@ -734,7 +742,7 @@ tokenColors:
   #   color: "#01579B"
   #   normal:
   #     - source.ini keyword
-  
+
   # - name: green
   #   color: "#00af5f"
   #   bold:
